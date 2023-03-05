@@ -1,5 +1,9 @@
-export default function Home() {
+export default async function Test() {
   return (
-    <h1 className="text-3xl text-red-800 font-bold underline">Hello world!</h1>
+    <>
+      <h1 className="font-serif text-3xl font-bold underline text-green-500">
+        Home
+      </h1>
+    </>
   );
 }
