@@ -1,15 +1,6 @@
-import { request } from 'graphql-request';
-import { ALL_RUBRIC } from './graphql'
 import Counter from './components/counter';
-
-const getTestData = async () => {
-  const url = process.env.NEXT_PUBLIC_GRAPHQL_API;
-	const variables = {
-		key: process.env.NEXT_PUBLIC_KEY
-	};
-  return await request(url, ALL_RUBRIC, variables);
-}
-
+import { useRequest } from './api/requests';
+const { getTest } = useRequest
 
 // export const metadata = {
 //   title: 'Тест Тайтл',
@@ -21,7 +12,7 @@ export async function generateMetadata({ params, searchParams }) {
 }
 
 export default async function Test() {
-  const data = await getTestData();
+  const data = await getTest();
 
   return (
     <>
