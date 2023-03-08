@@ -1,4 +1,5 @@
 import Counter from './components/counter';
+import Zustandtest from './components/zustandtest';
 import { useRequest } from './api/requests';
 const { getTest } = useRequest
 
@@ -11,8 +12,10 @@ export async function generateMetadata({ params, searchParams }) {
   return { title: '...' };
 }
 
+
 export default async function Test() {
   const data = await getTest();
+
 
   return (
     <>
@@ -21,6 +24,8 @@ export default async function Test() {
       GGGGGG2
     </h1>
 <Counter/>
+<p>----</p>
+<Zustandtest/>
     </>
   )
 }
