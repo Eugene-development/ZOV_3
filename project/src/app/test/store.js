@@ -5,6 +5,6 @@ const bears = create((set) => ({
   inc: () => set((state) => ({ count: state.count + 1 })),
 }));
 
-export const useStore = {
+export const useMyStore = {
   bears,
 };

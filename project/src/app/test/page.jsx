@@ -1,5 +1,6 @@
 import Counter from './components/counter';
 import Zustandtest from './components/zustandtest';
+import Zustandtest2 from './components/zustandtest2';
 import { useRequest } from './api/requests';
 const { getTest } = useRequest
 
@@ -26,6 +27,8 @@ export default async function Test() {
 <Counter/>
 <p>----</p>
 <Zustandtest/>
+<p>----</p>
+<Zustandtest2/>
     </>
   )
 }
