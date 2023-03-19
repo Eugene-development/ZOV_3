@@ -1,7 +1,7 @@
-import Counter from './components/counter';
-import Zustandtest from './components/zustandtest';
-import Zustandtest2 from './components/zustandtest2';
-import { useRequest } from './api/requests';
+import Counter from './module/components/counter';
+import Zustandtest from './module/components/zustandtest';
+import Zustandtest2 from './module/components/zustandtest2';
+import { useRequest } from './module/api/requests';
 const { getTest } = useRequest
 
 // export const metadata = {

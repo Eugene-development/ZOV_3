@@ -1,5 +1,5 @@
 import "./globals.css";
-import Menu from "./Menu";
+import Menu from "./module/components/Menu";
 
 export const metadata = {
   title: "Create Next App",
