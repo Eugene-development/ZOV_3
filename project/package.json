@@ -11,6 +11,8 @@
   "dependencies": {
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.16",
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",

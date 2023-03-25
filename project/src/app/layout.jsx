@@ -1,4 +1,5 @@
 import "./globals.css";
+import Bunner from "./module/components/bunner";
 import Menu from "./module/components/Menu";
 
 export const metadata = {
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body>
+        <Bunner/>
         <Menu />
         {children}
         <p>Footer</p>
