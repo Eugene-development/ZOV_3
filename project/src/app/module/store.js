@@ -1,8 +1,8 @@
 import { create } from "zustand";
 
 const visible = create((set) => ({
-  formMeasurement: 1,
-  change: () => set(() => ({ formMeasurement: true })),
+  visibleBunner: true,
+  changeVisibleBunner: () => set(() => ({ visibleBunner: false })),
 }));
 
 export const useMyStore = {
