@@ -1,6 +1,7 @@
-import "./globals.css";
+import "../globals.css";
 import Bunner from "./module/components/bunner";
 import Menu from "./module/components/Menu";
+import Catalog from "./module/components/Catalog";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +14,8 @@ export default function RootLayout({ children }) {
       <body>
         <Bunner/>
         <Menu />
-        {children}
+        <Catalog />
+          {children}
         <p>Footer</p>
       </body>
     </html>

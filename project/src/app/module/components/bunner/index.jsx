@@ -1,10 +1,10 @@
 "use client"
 import { XMarkIcon } from '@heroicons/react/20/solid'
-import { useMyStore } from '../../store'
-const { visible } = useMyStore;
+import { useBunnerStore } from '../../store'
+const { visible } = useBunnerStore
 
 export default function Bunner() {
-  const { visibleBunner } = visible();
+  const { visibleBunner, changeVisibleBunner } = visible();
 
   return (
     visibleBunner && <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
@@ -50,7 +50,7 @@ export default function Bunner() {
         </a>
       </p>
       <div className="flex flex-1 justify-end">
-        <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+        <button onClick={changeVisibleBunner} type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
           <span className="sr-only">Dismiss</span>
           <XMarkIcon className="h-5 w-5 text-gray-900" aria-hidden="true" />
         </button>

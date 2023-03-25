@@ -5,6 +5,6 @@ const visible = create((set) => ({
   changeVisibleBunner: () => set(() => ({ visibleBunner: false })),
 }));
 
-export const useMyStore = {
+export const useBunnerStore = {
   visible,
 };
