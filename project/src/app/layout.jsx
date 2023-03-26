@@ -1,5 +1,5 @@
 import "../globals.css";
-import Bunner from "./module/components/bunner";
+import Bunner from "./module/components/Banner";
 import Menu from "./module/components/Menu";
 import Catalog from "./module/components/Catalog";
 

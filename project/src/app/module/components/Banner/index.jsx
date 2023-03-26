@@ -1,13 +1,13 @@
 "use client"
-import { XMarkIcon } from '@heroicons/react/20/solid'
-import { useBunnerStore } from '../../store'
-const { visibleBunner } = useBunnerStore
+import CloseButton from './CloseButton';
+import { useBannerStore } from '../../store'
+const { visibleBanner } = useBannerStore
 
-export default function Bunner() {
-  const { currentVisibleBunner, changeVisibleBunner } = visibleBunner();
+export default function Banner() {
+  const { currentVisibleBanner } = visibleBanner();
 
   return (
-    currentVisibleBunner && <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
+    currentVisibleBanner && <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
       <svg
         viewBox="0 0 577 310"
         aria-hidden="true"
@@ -50,10 +50,7 @@ export default function Bunner() {
         </a>
       </p>
       <div className="flex flex-1 justify-end">
-        <button onClick={changeVisibleBunner} type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
-          <span className="sr-only">Dismiss</span>
-          <XMarkIcon className="h-5 w-5 text-gray-900" aria-hidden="true" />
-        </button>
+        <CloseButton/>
       </div>
     </div>
   )

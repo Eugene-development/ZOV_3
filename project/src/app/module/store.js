@@ -1,10 +1,10 @@
 import { create } from "zustand";
 
-const visibleBunner = create((set) => ({
-  currentVisibleBunner: true,
-  changeVisibleBunner: () => set(() => ({ currentVisibleBunner: false })),
+const visibleBanner = create((set) => ({
+  currentVisibleBanner: true,
+  changeVisibleBanner: () => set(() => ({ currentVisibleBanner: false })),
 }));
 
-export const useBunnerStore = {
-  visibleBunner,
+export const useBannerStore = {
+  visibleBanner,
 };
