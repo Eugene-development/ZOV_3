@@ -1,22 +1,14 @@
 import Image from 'next/image'
-import Hero from './Hero'
 
 export default function Catalog() {
   return (
     <>
-
-<Hero/>
-
-
-
-
-    
-    <div className="bg-white py-2 sm:py-4 ">
+    <div className="bg-slate-50 pb-2 sm:pb-4 px-4 ">
       <div className="mx-auto max-w-full px-6 lg:px-8">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl lg:grid-cols-6 ">
           <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
             <Image
-              className="max-h-10 w-full  object-contain"
+              className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/icon2.svg"
               alt="Transistor"
               width={158}
