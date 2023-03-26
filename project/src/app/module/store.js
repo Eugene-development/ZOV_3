@@ -1,10 +1,10 @@
 import { create } from "zustand";
 
-const visible = create((set) => ({
-  visibleBunner: true,
-  changeVisibleBunner: () => set(() => ({ visibleBunner: false })),
+const visibleBunner = create((set) => ({
+  currentVisibleBunner: true,
+  changeVisibleBunner: () => set(() => ({ currentVisibleBunner: false })),
 }));
 
 export const useBunnerStore = {
-  visible,
+  visibleBunner,
 };
