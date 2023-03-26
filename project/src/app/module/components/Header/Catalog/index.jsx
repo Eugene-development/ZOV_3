@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Catalog() {
   return (
     <>
-    <div className="bg-slate-50 pb-2 sm:pb-4 px-4 ">
+    <div className="bg-slate-50 pb-2 sm:pb-4 px-4">
       <div className="mx-auto max-w-full px-6 lg:px-8">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl lg:grid-cols-6 ">
           <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
