@@ -7,7 +7,8 @@ export default function Banner() {
   const { currentVisibleBanner } = visibleBanner();
 
   return (
-    currentVisibleBanner && <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
+    currentVisibleBanner && 
+    <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
       <svg
         viewBox="0 0 577 310"
         aria-hidden="true"
