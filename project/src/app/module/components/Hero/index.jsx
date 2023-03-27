@@ -1,110 +1,134 @@
-"use client"
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const navigation = [
-  { name: 'Главная', href: '#' },
-  { name: 'Компания', href: '#' },
-  { name: 'Каталог', href: '#' },
-  { name: 'Блог', href: '#' },
-  { name: 'Акции', href: '#' },
-  { name: 'Салоны', href: '#' },
-]
 
 export default function Hero() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-slate-100">
-      <div className="relative isolate overflow-hidden pt-14">
-        <img
-          src="https://zovrus.ru/files/_cache/product/chr-6982.crop600x380.jpg?00a3bcf4056f07a9338d0cdea25bdeba"
-          alt="мебель"
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-        />
-        {/* <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+    <div className="bg-white">
+      <main>
+        <div className="relative isolate">
           <svg
-            className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
-            viewBox="0 0 1155 678"
+            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            aria-hidden="true"
           >
-            <path
-              fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)"
-              fillOpacity=".2"
-              d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
-            />
             <defs>
-              <linearGradient
-                id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533"
-                x1="1155.49"
-                x2="-78.208"
-                y1=".177"
-                y2="474.645"
-                gradientUnits="userSpaceOnUse"
+              <pattern
+                id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
+                width={200}
+                height={200}
+                x="50%"
+                y={-1}
+                patternUnits="userSpaceOnUse"
               >
-                <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#FF80B5" />
-              </linearGradient>
+                <path d="M.5 200V.5H200" fill="none" />
+              </pattern>
             </defs>
+            <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+              <path
+                d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+                strokeWidth={0}
+              />
+            </svg>
+            <rect width="100%" height="100%" strokeWidth={0} fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" />
           </svg>
-        </div> */}
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-white">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
+          <div className="absolute top-0 left-1/2 right-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48">
+            <svg viewBox="0 0 801 1036" aria-hidden="true" className="w-[50.0625rem]">
+              <path
+                fill="url(#70656b7e-db44-4b9b-b7d2-1f06791bed52)"
+                fillOpacity=".3"
+                d="m282.279 843.371 32.285 192.609-313.61-25.32 281.325-167.289-58.145-346.888c94.5 92.652 277.002 213.246 251.009-45.597C442.651 127.331 248.072 10.369 449.268.891c160.956-7.583 301.235 116.434 351.256 179.39L507.001 307.557l270.983 241.04-495.705 294.774Z"
+              />
+              <defs>
+                <linearGradient
+                  id="70656b7e-db44-4b9b-b7d2-1f06791bed52"
+                  x1="508.179"
+                  x2="-28.677"
+                  y1="-116.221"
+                  y2="1091.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#9089FC" />
+                  <stop offset={1} stopColor="#FF80B5" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Мебель для жизни
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-              >
-                Get started
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+          <div className="overflow-hidden">
+            <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
+              <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                    We’re changing the way people connect.
+                  </h1>
+                  <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
+                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
+                    mollit id pariatur in voluptate cillum.
+                  </p>
+                  <div className="mt-10 flex items-center gap-x-6">
+                    <a
+                      href="#"
+                      className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                      Get started
+                    </a>
+                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                      Live demo <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
+                </div>
+                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                    <div className="relative">
+                      <img
+                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
+                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                    <div className="relative">
+                      <img
+                        src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <img
+                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
+                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                    <div className="relative">
+                      <img
+                        src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <img
+                        src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
-          <svg
-            className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
-            viewBox="0 0 1155 678"
-          >
-            <path
-              fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)"
-              fillOpacity=".2"
-              d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
-            />
-            <defs>
-              <linearGradient
-                id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc"
-                x1="1155.49"
-                x2="-78.208"
-                y1=".177"
-                y2="474.645"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#FF80B5" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-      </div>
+      </main>
     </div>
   )
 }
