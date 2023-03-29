@@ -3,11 +3,44 @@
 export default function Hero() {
 
   return (
+
+    <>
+    <div className="bg-white h-96">
+      <div className="relative bg-gray-900">
+        {/* Decorative image and overlay */}
+        <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
+          <img
+            src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+            alt=""
+            className="h-full w-full object-cover object-center"
+          />
+        </div>
+        <div aria-hidden="true" className="absolute inset-0 bg-gray-900 opacity-50" />
+
+        <div className="relative mx-auto flex max-w-3xl flex-col items-center py-32 px-6 text-center sm:py-64 lg:px-0">
+          <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl">New arrivals are here</h1>
+          <p className="mt-4 text-xl text-white">
+            The new arrivals have, well, newly arrived. Check out the latest options from our summer small-batch release
+            while they're still in stock.
+          </p>
+          <a
+            href="#"
+            className="mt-8 inline-block rounded-md border border-transparent bg-white py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100"
+          >
+            Shop New Arrivals
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div className="bg-white">
       <main>
         <div className="relative isolate">
           <svg
-            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-300 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -55,7 +88,7 @@ export default function Hero() {
           <div className="overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mt-24">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                     We’re changing the way people connect.
                   </h1>
@@ -130,5 +163,11 @@ export default function Hero() {
         </div>
       </main>
     </div>
+
+    
+    </>
+
+
+
   )
 }

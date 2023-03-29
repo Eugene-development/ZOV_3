@@ -1,5 +1,7 @@
 import clsx from 'clsx'
 
+// console.log(clsx(true, false, '', null, undefined, 1, NaN))
+// console.log(clsx('foo', false && 'bar', 'baz'))
 export function Container({ className, ...props }) {
   return (
     <div

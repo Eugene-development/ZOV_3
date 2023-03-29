@@ -80,7 +80,7 @@ function QuoteIcon(props) {
 }
 
 export default function Testimonials() {
-  return (
+  return ( 
     <section
       id="testimonials"
       aria-label="What our customers are saying"
@@ -137,7 +137,9 @@ export default function Testimonials() {
             </li>
           ))}
         </ul>
+        
       </Container>
+
     </section>
   )
 }
