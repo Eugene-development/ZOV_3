@@ -1,5 +1,5 @@
 import "../globals.css";
-import Banner from "./module/components/Banner";
+import Banner from "./module/components/Header/Banner";
 import Header from "./module/components/Header";
 import Footer from "./module/components/Footer";
 export const metadata = {
