@@ -15,7 +15,7 @@ export default function Example() {
                   src="https://zovrus.ru/design/zovrus/images/dist/svg/zov_logo.svg"
                   alt="Your Company"
                 /> */}
-                <div className="mt-24 sm:mt-32 lg:mt-16">
+                <div className="mt-24 sm:mt-32 lg:mt-12">
                   <a href="#" className="inline-flex space-x-6">
                     <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
                       What's new
@@ -64,7 +64,7 @@ export default function Example() {
                     alt="кухонный гарнитур"
                     width={2432}
                     height={1442}
-                    className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24"
+                    className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
                   />
                   {/* <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
                     <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900">
