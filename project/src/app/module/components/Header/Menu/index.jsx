@@ -150,9 +150,9 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/about" className="text-sm font-semibold leading-6 text-gray-900">
             Компания
-          </a>
+          </Link>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Информация
           </a>
