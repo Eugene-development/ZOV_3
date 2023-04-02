@@ -15,7 +15,7 @@ export default function Example() {
                   src="https://zovrus.ru/design/zovrus/images/dist/svg/zov_logo.svg"
                   alt="Your Company"
                 /> */}
-                <div className="mt-24 sm:mt-32 lg:mt-16">
+                <div className="mt-4 sm:mt-8 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
                     <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
                       Наши новинки

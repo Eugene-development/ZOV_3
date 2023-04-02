@@ -171,8 +171,8 @@ export default function Menu() {
                                         <div
                                             className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-sm bg-indigo-500"
                                         >
-                                            <PhoneIcon className="block h-6 w-6" aria-hidden="true" />
-                                            <Link href="tel:79801506943" className="ml-2 text-lg font-bold"
+                                            <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6" aria-hidden="true" />
+                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold"
                                                 >8 (980) 150-69-43
                                             </Link>
                                         </div>
