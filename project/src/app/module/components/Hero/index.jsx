@@ -6,7 +6,7 @@ export default function Example() {
   return (
     <div className="bg-white">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-16">
+        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-24">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg">
@@ -15,7 +15,7 @@ export default function Example() {
                   src="https://zovrus.ru/design/zovrus/images/dist/svg/zov_logo.svg"
                   alt="Your Company"
                 /> */}
-                <div className="mt-24 sm:mt-32 lg:mt-12">
+                <div className="mt-24 sm:mt-32 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
                     <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
                       What's new
