@@ -6,15 +6,15 @@ export default function Example() {
   return (
     <div className="bg-white">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-40">
+        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-16">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg">
-                <img
+                {/* <img
                   className="h-24"
                   src="https://zovrus.ru/design/zovrus/images/dist/svg/zov_logo.svg"
                   alt="Your Company"
-                />
+                /> */}
                 <div className="mt-24 sm:mt-32 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
                     <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
@@ -58,8 +58,15 @@ export default function Example() {
                   className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                   aria-hidden="true"
                 />
-                <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
-                  <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
+                <div className="relative px-6 pt-8 sm:pt-8 md:pl-16 md:pr-0">
+                  <img
+                    src="https://zovrus.ru/files/_cache/product/chr-0614.resize1200x1200w.jpg?b00cc4c680739004ce873abc05677f47"
+                    alt="кухонный гарнитур"
+                    width={2432}
+                    height={1442}
+                    className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24"
+                  />
+                  {/* <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
                     <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900">
                       <div className="flex bg-gray-800/40 ring-1 ring-white/5">
                         <div className="-mb-px flex text-sm font-medium leading-6 text-gray-400">
@@ -69,9 +76,9 @@ export default function Example() {
                           <div className="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
                         </div>
                       </div>
-                      <div className="px-6 pb-14 pt-6">{/* Your code example */}</div>
+                      <div className="px-6 pb-14 pt-6">123</div>
                     </div>
-                  </div>
+                  </div> */}
                   <div
                     className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 md:rounded-3xl"
                     aria-hidden="true"
