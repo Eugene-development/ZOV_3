@@ -3,10 +3,10 @@ import Image from 'next/image'
 export default function Catalog() {
   return (
     <>
-    <div className="bg-slate-50">
+    <div className="">
       <div className="mx-auto max-w-full">
         <div className=" grid grid-cols-2 gap-0.5 overflow-hidden  lg:grid-cols-6 ">
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/icon2.svg"
@@ -16,7 +16,7 @@ export default function Catalog() {
             />
             <p className="text-gray-50 text-center text-sm pt-2">Кухонные гарнитуры</p>
           </div>
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/icon3.svg"
@@ -26,7 +26,7 @@ export default function Catalog() {
             />
             <p className="text-gray-50 text-center text-sm pt-2">Шкафы и гардеробы</p>
           </div>
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/meb.svg"
@@ -36,7 +36,7 @@ export default function Catalog() {
             />
             <p className="text-gray-50 text-center text-sm pt-2">Обеденные группы</p>
           </div>
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/icon2.svg"
@@ -46,7 +46,7 @@ export default function Catalog() {
             />
             <p className="text-gray-50 text-center text-sm pt-2">Мебель для ванной</p>
           </div>
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/tex.svg"
@@ -56,7 +56,7 @@ export default function Catalog() {
             />
             <p className="text-gray-50 text-center text-sm pt-2">Бытовая техника</p>
           </div>
-          <div className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 hover:from-slate-900 hover:via-slate-800 hover:to-slate-900 p-3 sm:p-5">
+          <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 hover:from-slate-950 hover:via-slate-900 hover:to-slate-950 p-3 sm:p-5">
             <Image
               className="max-h-10 w-full object-contain"
               src="https://zovrus.ru/design/zovrus/images/menu/sale.svg"
