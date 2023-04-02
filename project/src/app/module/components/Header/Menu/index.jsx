@@ -52,7 +52,7 @@ export default function Hero() {
 
       <header className=" inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-4 lg:px-12" aria-label="Global">
-          {/* <div className="flex lg:flex-1">
+          <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Кухни ЗОВ</span>
               <img
@@ -61,7 +61,7 @@ export default function Hero() {
                 alt="logo"
               />
             </a>
-          </div> */}
+          </div>
           <div className="flex lg:hidden">
             <button
               type="button"
