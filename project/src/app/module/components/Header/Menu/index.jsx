@@ -1,13 +1,5 @@
 "use client"
-
-const navigation = [
-  { name: 'Главная', href: '#' },
-  { name: 'Компания', href: '#' },
-  { name: 'Каталог', href: '#' },
-  { name: 'Блог', href: '#' },
-  { name: 'Акции', href: '#' },
-  { name: 'Салоны', href: '#' },
-]
+import Link from "next/link"
 
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
@@ -90,7 +82,7 @@ export default function Menu() {
         <use href="#a906133b-f855-4023-a54c-38d70c72fe9c" />
       </svg>
 
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
@@ -175,9 +167,16 @@ export default function Menu() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
+                                        <div
+                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-sm bg-indigo-500"
+                                        >
+                                            <PhoneIcon className="block h-6 w-6" aria-hidden="true" />
+                                            <Link href="tel:79801506943" className="ml-2 text-lg font-bold"
+                                                >8 (980) 150-69-43
+                                            </Link>
+                                        </div>
+                                    </div>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -249,13 +248,16 @@ export default function Menu() {
                 </a>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
-              </div>
+<div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
+                                        <div
+                                            className="flex rounded-lg px-3 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-sm ring-2 ring-gray-200/100 hover:ring-gray-500/20"
+                                        >
+                                            <PhoneIcon className="block h-6 w-6" aria-hidden="true" />
+                                            <Link href="tel:79801506943" className="ml-2 text-lg font-bold "
+                                                >8 (980) 150-69-43
+                                            </Link>
+                                        </div>
+                                    </div>              </div>
             </div>
           </div>
         </Dialog.Panel>
