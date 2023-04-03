@@ -85,7 +85,7 @@ export default function Menu() {
       <nav className="mx-auto flex max-w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Фабрика "ЗОВ"</span>
             <img className="h-9 w-auto" src="https://zov.ru/img/logo.png" alt="" />
           </Link>
         </div>
@@ -169,7 +169,7 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-xl bg-indigo-500"
+                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-500"
                                         >
                                             <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6" aria-hidden="true" />
                                             <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold"
