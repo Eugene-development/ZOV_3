@@ -42,9 +42,9 @@ export default function ExampleFurniture() {
                     Шкафы
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
+                {/* <p aria-hidden="true" className="mt-1 text-sm text-white">
                   Shop now
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -66,9 +66,9 @@ export default function ExampleFurniture() {
                     Кухонные гарнитуры
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
+                {/* <p aria-hidden="true" className="mt-1 text-sm text-white">
                   Shop now
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -87,12 +87,12 @@ export default function ExampleFurniture() {
                 <h3 className="font-semibold text-white">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Workspace
+                    Бытовая техника
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
+                {/* <p aria-hidden="true" className="mt-1 text-sm text-white">
                   Shop now
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
