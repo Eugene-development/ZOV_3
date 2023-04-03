@@ -20,10 +20,10 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 const stats = [
-  { label: 'Начало работы', value: '1997' },
-  { label: 'Салонов в Москве', value: '39' },
-  { label: 'Users on the platform', value: '250k' },
-  { label: 'Paid out to creators', value: '$70M' },
+  { label: 'Начало работы фабрики', value: '1997' },
+  { label: 'Салонов в Москве и области', value: '39' },
+  { label: 'Сотрудников на производстве', value: '2k' },
+  { label: 'Комплектов мебели ежедневно', value: '300+' },
 ]
 const values = [
   {
@@ -186,9 +186,15 @@ export default function Example() {
           />
         </div>
 
+        <img
+            className="mx-auto pt-16 h-48"
+            src="https://zovrus.ru/design/zovrus/images/dist/svg/logo-white.svg"
+            alt="Фабрика мебели 'ЗОВ'"
+          />
+
         {/* Header section */}
-        <div className="px-6 pt-14 lg:px-8">
-          <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
+        <div className="px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl pt-12 text-center sm:pt-20">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Мы любим создавать</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
