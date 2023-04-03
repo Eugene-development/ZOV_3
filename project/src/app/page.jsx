@@ -1,5 +1,5 @@
-import Hero from "./module/components/Hero";
-import Testimonials from "./module/components/Testimonials";
+import Hero from "./z-module/components/Hero";
+import Testimonials from "./z-module/components/Testimonials";
 export default async function Home() {
   return (
     <>

@@ -20,8 +20,8 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 const stats = [
-  { label: 'Business was founded', value: '2012' },
-  { label: 'People on the team', value: '120+' },
+  { label: 'Начало работы', value: '1997' },
+  { label: 'Салонов в Москве', value: '39' },
   { label: 'Users on the platform', value: '250k' },
   { label: 'Paid out to creators', value: '$70M' },
 ]
