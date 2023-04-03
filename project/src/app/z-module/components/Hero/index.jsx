@@ -18,7 +18,7 @@ export default function Example() {
                 <div className="mt-4 sm:mt-8 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
                     <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
-                      Наши новинки
+                      Фабрика мебели "ЗОВ"
                     </span>
                     <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
                       <span>Каталог 2023 года</span>
@@ -27,11 +27,10 @@ export default function Example() {
                   </a>
                 </div>
                 <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                  Мебель для жизни от фабрики "ЗОВ"
+                  Мебель для жизни
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
+                   Фабрика "ЗОВ" - это один из крупнейших производителей кухонной и корпусной мебели как в Республике Беларусь, так и за ее пределами. {/* Наша крупнейшая в Москве и области дилерская сеть насчитывает 39 салонов, где вы можете ознакомиться с образцами и получить полную консультацию.  */}
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
