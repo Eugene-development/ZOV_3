@@ -49,39 +49,6 @@ export default function Menu() {
 
   return (
     <header className="relative isolate z-10 bg-white border-b">
-      <svg
-        viewBox="0 0 577 310"
-        aria-hidden="true"
-        className="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
-      >
-        <path
-          id="a906133b-f855-4023-a54c-38d70c72fe9c"
-          fill="url(#be47b6c9-9c22-49b2-a209-168b52fa0ada)"
-          fillOpacity=".3"
-          d="m142.787 168.697-75.331 62.132L.016 88.702l142.771 79.995 135.671-111.9c-16.495 64.083-23.088 173.257 82.496 97.291C492.935 59.13 494.936-54.366 549.339 30.385c43.523 67.8 24.892 159.548 10.136 196.946l-128.493-95.28-36.628 177.599-251.567-140.953Z"
-        />
-        <defs>
-          <linearGradient
-            id="be47b6c9-9c22-49b2-a209-168b52fa0ada"
-            x1="614.778"
-            x2="-42.453"
-            y1="26.617"
-            y2="96.115"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#9089FC" />
-            <stop offset={1} stopColor="#FF80B5" />
-          </linearGradient>
-        </defs>
-      </svg>
-      <svg
-        viewBox="0 0 577 310"
-        aria-hidden="true"
-        className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
-      >
-        <use href="#a906133b-f855-4023-a54c-38d70c72fe9c" />
-      </svg>
-
       <nav className="mx-auto flex max-w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">

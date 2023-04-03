@@ -12,7 +12,7 @@ export default function Banner() {
       <svg
         viewBox="0 0 577 310"
         aria-hidden="true"
-        className="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
+        className="absolute top-1/2 left-[max(-7rem,calc(30%-12rem))] -z-10 w-[20rem] -translate-y-1/2 transform-gpu blur-2xl"
       >
         <path
           id="a906133b-f855-4023-a54c-38d70c72fe9c"
@@ -35,9 +35,9 @@ export default function Banner() {
         </defs>
       </svg>
       <svg
-        viewBox="0 0 577 310"
+        viewBox="0 0 300 310"
         aria-hidden="true"
-        className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
+        className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[20rem] -translate-y-1/2 transform-gpu blur-2xl"
       >
         <use href="#a906133b-f855-4023-a54c-38d70c72fe9c" />
       </svg>
