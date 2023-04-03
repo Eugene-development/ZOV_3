@@ -169,7 +169,7 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-sm bg-indigo-500"
+                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-xl bg-indigo-500"
                                         >
                                             <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6" aria-hidden="true" />
                                             <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold"
@@ -250,7 +250,7 @@ export default function Menu() {
               <div className="py-6">
 <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-3 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-sm ring-2 ring-gray-200/100 hover:ring-gray-500/20"
+                                            className="flex rounded-lg px-3 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-xl ring-2 ring-gray-200/100 hover:ring-gray-500/20 "
                                         >
                                             <PhoneIcon className="block h-6 w-6" aria-hidden="true" />
                                             <Link href="tel:79801506943" className="ml-2 text-lg font-bold "
