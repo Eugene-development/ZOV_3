@@ -49,7 +49,7 @@ export default function Banner() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-5 h-5 text-red-900"
+            className="w-5 h-5 text-gray-900"
           >
             <path
               stroke-linecap="round"
@@ -62,7 +62,7 @@ export default function Banner() {
               d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
             />
           </svg>
-          <span className="ml-1 text-sm text-red-900">Москва</span>
+          <span className="ml-1 text-sm text-gray-900">Москва</span>
         </div>
 			</div>
       <p className="text-sm leading-6 text-gray-900">
