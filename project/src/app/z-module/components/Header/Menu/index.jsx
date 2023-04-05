@@ -15,29 +15,29 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '
 
 const products = [
   {
-    name: 'Analytics',
+    name: 'Кухонные гарнитуры',
     description: 'Get a better understanding where your traffic is coming from',
     href: '#',
     icon: ChartPieIcon,
   },
   {
-    name: 'Engagement',
+    name: 'Шкафы и гардеробы',
     description: 'Speak directly to your customers with our engagement tool',
     href: '#',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Мягкая мебель', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   {
-    name: 'Integrations',
+    name: 'Распродажа',
     description: 'Your customers’ data will be safe and secure',
     href: '#',
     icon: SquaresPlusIcon,
   },
 ]
 const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
-  { name: 'View all products', href: '#', icon: RectangleGroupIcon },
+  { name: 'Посмотреть презентацию', href: '#', icon: PlayCircleIcon },
+  { name: 'Заказать звонок', href: '#', icon: PhoneIcon },
+  { name: 'Ознакомиться с сервисом', href: '#', icon: RectangleGroupIcon },
 ]
 
 function classNames(...classes) {
@@ -87,7 +87,7 @@ export default function Menu() {
                   {products.map((item) => (
                     <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50">
                       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                        <item.icon className="h-6 w-6 text-indigo-600 group-hover:text-red-600" aria-hidden="true" />
                       </div>
                       <a href={item.href} className="mt-6 block font-semibold text-gray-900">
                         {item.name}
@@ -136,9 +136,9 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-50 shadow-xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-500"
+                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-700 shadow-xl bg-gradient-to-r from-gray-50 via-gray-50 to-gray-50"
                                         >
-                                            <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6" aria-hidden="true" />
+                                            <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6 text-indigo-600" aria-hidden="true" />
                                             <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold"
                                                 >8 (980) 150-69-43
                                             </Link>
