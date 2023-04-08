@@ -24,13 +24,25 @@ const perks = [
     description:
       "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
   },
+  {
+    name: 'Экологичность',
+    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
+    description:
+      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+  },
+  {
+    name: 'Экологичность',
+    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
+    description:
+      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+  },
 ]
 
 export default function Incentives() {
   return (
     <div className="bg-gradient-to-b from-gray-50">
       <h2 className="sr-only">Our perks</h2>
-      <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
+      <div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           {perks.map((perk) => (
             <div key={perk.name} className="sm:flex">
