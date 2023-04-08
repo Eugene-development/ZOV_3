@@ -147,7 +147,7 @@ const footerNavigation = {
   ],
 }
 
-export default function Example() {
+export default function Company() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

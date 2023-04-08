@@ -127,13 +127,13 @@ export default function Menu() {
           <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Сервис
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/blog" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Блог
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/actions" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/showrooms" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>
