@@ -53,7 +53,7 @@ export default function Menu() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Фабрика "ЗОВ"</span>
-            <img className="h-9 w-auto" src="https://zov.ru/img/logo.png" alt="" />
+            <img className="h-9 w-auto" src="https://zovofficial.com/image/catalog/logo-rus-x2.png" alt="логотип" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -136,10 +136,10 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6 text-gray-700 shadow-xl bg-gradient-to-r from-gray-50 via-gray-50 to-gray-50"
+                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-200/50 ring-offset-2 ring-2 ring-indigo-100"
                                         >
                                             <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6 text-indigo-600" aria-hidden="true" />
-                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold"
+                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold text-indigo-950"
                                                 >8 (980) 150-69-43
                                             </Link>
                                         </div>

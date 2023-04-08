@@ -17,7 +17,7 @@ export default function Example() {
                 /> */}
                 <div className="mt-4 sm:mt-8 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
-                    <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
+                    <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-700 ring-1 ring-inset ring-indigo-600/10">
                       Фабрика мебели "ЗОВ"
                     </span>
                     <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
@@ -35,7 +35,7 @@ export default function Example() {
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Заказать 3D проект
                   </a>
@@ -59,12 +59,19 @@ export default function Example() {
                 />
                 <div className="relative px-6 pt-8 sm:pt-8 md:pl-16 md:pr-0">
                   <img
-                    src="https://zovrus.ru/files/_cache/product/chr-0614.resize1200x1200w.jpg?b00cc4c680739004ce873abc05677f47"
+                    src="https://zovofficial.com/image/cache/catalog/products/kuhni/2023/antiko/1-1600x1086.jpg"
                     alt="кухонный гарнитур"
                     width={2432}
                     height={1442}
                     className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
                   />
+                  {/* <img
+                    src="https://zovrus.ru/files/_cache/product/chr-0614.resize1200x1200w.jpg?b00cc4c680739004ce873abc05677f47"
+                    alt="кухонный гарнитур"
+                    width={2432}
+                    height={1442}
+                    className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
+                  /> */}
                   {/* <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
                     <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900">
                       <div className="flex bg-gray-800/40 ring-1 ring-white/5">
