@@ -49,7 +49,7 @@ export default function Menu() {
 
   return (
     <header className="relative isolate z-10 bg-white border-b">
-      <nav className="mx-auto flex max-w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-full items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 pl-3">
             <span className="sr-only">Фабрика "ЗОВ"</span>
