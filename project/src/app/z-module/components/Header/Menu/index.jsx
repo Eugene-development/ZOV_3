@@ -67,15 +67,15 @@ export default function Menu() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-9">
-          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Главная
           </Link>
-          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Компания
           </Link>
 
           <Popover>     
-            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
               Каталог
               {/* <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" /> */}
             </Popover.Button>
@@ -124,16 +124,16 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Сервис
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Блог
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>
