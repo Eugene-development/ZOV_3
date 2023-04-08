@@ -51,9 +51,9 @@ export default function Menu() {
     <header className="relative isolate z-10 bg-white border-b">
       <nav className="mx-auto flex max-w-full items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 pl-3">
             <span className="sr-only">Фабрика "ЗОВ"</span>
-            <img className="h-9 w-auto" src="https://zovofficial.com/image/catalog/logo-rus-x2.png" alt="логотип" />
+            <img className="h-12 w-auto" src="https://zovofficial.com/image/catalog/logo-rus-x2.png" alt="логотип" />
           </Link>
         </div>
         <div className="flex lg:hidden">
