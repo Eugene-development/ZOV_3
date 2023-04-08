@@ -136,10 +136,10 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                         <div
-                                            className="flex rounded-lg px-4 py-1.5 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200"
+                                            className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200"
                                         >
-                                            <PhoneIcon className="block h-5 w-5 xl:h-6 xl:w-6 text-indigo-600" aria-hidden="true" />
-                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold text-indigo-950"
+                                            <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-600" aria-hidden="true" />
+                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-indigo-950"
                                                 >8 (980) 150-69-43
                                             </Link>
                                         </div>

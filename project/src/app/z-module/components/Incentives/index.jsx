@@ -1,38 +1,38 @@
 /* This example requires Tailwind CSS v2.0+ */
 const perks = [
   {
-    name: 'Доставка',
+    name: 'Удобство покупки',
+    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg',
+    description:
+      'We understand that when your product arrives you might not particularly like it, or you ordered the wrong thing. Conditions apply here.',
+  },
+  {
+    name: 'Акции и подарки',
+    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-gift-card-light.svg',
+    description:
+      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+  },
+  {
+    name: 'Доставка на адрес',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg',
     description:
       "Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.",
   },
   {
-    name: 'Гарантии',
+    name: 'Гарантии 2 года',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-light.svg',
     description:
       "We have a 10 year warranty with every product that you purchase, whether thats a new pen or organizer, you can be sure we'll stand behind it.",
   },
   {
-    name: 'Проект',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-returns-light.svg',
-    description:
-      'We understand that when your product arrives you might not particularly like it, or you ordered the wrong thing. Conditions apply here.',
-  },
-  {
-    name: 'Экологичность',
+    name: 'Экологичность материалов',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
     description:
       "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
   },
   {
-    name: 'Экологичность',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
-    description:
-      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
-  },
-  {
-    name: 'Экологичность',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
+    name: 'Поддержка после продажи',
+    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg',
     description:
       "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
   },
@@ -42,7 +42,7 @@ export default function Incentives() {
   return (
     <div className="bg-gradient-to-b from-gray-50">
       <h2 className="sr-only">Our perks</h2>
-      <div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-16 lg:px-4">
+      <div className="mx-auto max-w-7xl py-6 sm:px-2 sm:py-12 lg:px-4">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           {perks.map((perk) => (
             <div key={perk.name} className="sm:flex">

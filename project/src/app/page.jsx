@@ -24,7 +24,7 @@ export default async function Home() {
       <Brand/>
       <ExampleFurniture/>
       {/* <Feature/> */}
-      <Incentives className="ml-24"/>
+      <Incentives/>
       <Testimonials/>
     </>
   );
