@@ -11,7 +11,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
+import { ChevronRightIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
 
 const products = [
   {
@@ -66,11 +66,18 @@ export default function Menu() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-10">
-          <Popover>
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+        <Popover.Group className="hidden lg:flex lg:gap-x-9">
+          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+            Главная
+          </Link>
+          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+            Компания
+          </Link>
+
+          <Popover>     
+            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
               Каталог
-              <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+              {/* <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" /> */}
             </Popover.Button>
 
             <Transition
@@ -117,33 +124,28 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <Link href="/company" className="text-sm font-semibold leading-6 text-gray-900">
-            Компания
+          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
+            Сервис
           </Link>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Информация
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
             Блог
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
             Акции
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link href="#" className="text-sm xl:text-base font-semibold leading-6 text-gray-900 hover:text-red-600">
             Салоны
-          </a>
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                                        <div
-                                            className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200"
-                                        >
-                                            <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-600" aria-hidden="true" />
-                                            <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-indigo-950"
-                                                >8 (980) 150-69-43
-                                            </Link>
-                                        </div>
-                                    </div>
+            <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200">
+                <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-600" aria-hidden="true" />
+                <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-indigo-950"
+                    >8 (980) 150-69-43
+                </Link>
+            </div>
+          </div>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
