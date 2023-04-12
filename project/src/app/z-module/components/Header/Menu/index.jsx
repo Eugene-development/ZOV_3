@@ -48,7 +48,7 @@ export default function Menu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="relative isolate z-10 bg-white border-b">
+    <header className="relative isolate z-10 bg-white border-y">
       <nav className="mx-auto flex max-w-full items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 pl-3">

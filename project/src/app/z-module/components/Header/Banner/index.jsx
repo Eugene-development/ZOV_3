@@ -8,7 +8,7 @@ export default function Banner() {
 
   return (
     currentVisibleBanner && 
-    <div className="relative isolate flex items-center bg-gray-100 py-2.5 px-6 sm:px-3.5 justify-between">
+    <div className="relative isolate flex items-center py-2.5 px-6 sm:px-3.5 justify-between">
       <svg
         viewBox="0 0 577 310"
         aria-hidden="true"
