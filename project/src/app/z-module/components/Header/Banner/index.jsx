@@ -49,7 +49,7 @@ export default function Banner() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-5 h-5 text-pink-700"
+            className="w-5 h-5 text-red-800"
           >
             <path
               stroke-linecap="round"

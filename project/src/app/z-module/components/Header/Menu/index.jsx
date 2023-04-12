@@ -67,15 +67,15 @@ export default function Menu() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-9">
-          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Главная
           </Link>
-          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Компания
           </Link>
 
           <Popover>     
-            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
               Каталог
               {/* <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" /> */}
             </Popover.Button>
@@ -124,23 +124,23 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Сервис
           </Link>
-          <Link href="/blog" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/blog" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Блог
           </Link>
-          <Link href="/actions" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/actions" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="/showrooms" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-600 transition ease-in-out hover:scale-110">
+          <Link href="/showrooms" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200">
-                <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-600" aria-hidden="true" />
+                <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-700" aria-hidden="true" />
                 <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-indigo-950"
                     >8 (980) 150-69-43
                 </Link>
