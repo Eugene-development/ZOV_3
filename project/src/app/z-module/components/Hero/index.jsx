@@ -1,8 +1,7 @@
 
-
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="bg-white">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
@@ -11,8 +10,8 @@ export default function Example() {
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg">
                 {/* <img
-                  className="h-24"
-                  src="https://zovrus.ru/design/zovrus/images/dist/svg/zov_logo.svg"
+                  className="h-48"
+                  src="https://zovofficial.com/image/catalog/logo-rus-x2.png"
                   alt="Your Company"
                 /> */}
                 <div className="mt-4 sm:mt-8 lg:mt-16">

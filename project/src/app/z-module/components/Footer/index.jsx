@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const navigation = {
   production: [
     { name: 'Кухонные гарнитуры', href: '#' },
@@ -12,16 +14,16 @@ const navigation = {
     { name: 'Обращение', href: '#' },
   ],
   company: [
-    { name: 'Информация', href: '#' },
+    { name: 'Сертификаты', href: '#' },
     { name: 'Вакансии', href: '#' },
-    // { name: 'Мероприятия', href: '#' },
     { name: 'Лояльность', href: '#' },
     { name: 'Партнёрство', href: '#' },
   ],
-  legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+  information: [
+    { name: 'Компания', href: '#' },
+    { name: 'Блог', href: '#' },
+    { name: 'Акции', href: '/actions' },
+    { name: 'Контакты', href: '#' },
   ],
   social: [
     // {
@@ -97,7 +99,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <img
-            className="h-56"
+            className="h-48"
             src="https://zovrus.ru/design/zovrus/images/dist/svg/logo-white.svg"
             alt="Фабрика мебели 'ЗОВ'"
           />
@@ -108,9 +110,9 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.production.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -120,9 +122,9 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -134,21 +136,21 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
+                <h3 className="text-sm font-semibold leading-6 text-white">Информация</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
+                  {navigation.information.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
