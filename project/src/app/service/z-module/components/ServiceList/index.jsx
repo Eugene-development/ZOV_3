@@ -37,7 +37,7 @@ const services = [
     icon: LockClosedIcon,
   },
   {
-    name: 'Обслуживание',
+    name: 'Поддержка',
     description:
       'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
     href: '#',

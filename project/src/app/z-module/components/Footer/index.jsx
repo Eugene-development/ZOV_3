@@ -106,7 +106,7 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Продукция</h3>
+                <h3 className="text-base font-semibold leading-6 text-white">Продукция</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.production.map((item) => (
                     <li key={item.name}>
@@ -118,7 +118,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Поддержка</h3>
+                <h3 className="text-base font-semibold leading-6 text-white">Поддержка</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
@@ -132,7 +132,7 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Компания</h3>
+                <h3 className="text-base font-semibold leading-6 text-white">Компания</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
@@ -144,7 +144,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Информация</h3>
+                <h3 className="text-base font-semibold leading-6 text-white">Информация</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.information.map((item) => (
                     <li key={item.name}>
@@ -160,7 +160,7 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">Подписка</h3>
+            <h3 className="text-base font-semibold leading-6 text-white">Подписка</h3>
             <p className="mt-2 text-sm leading-6 text-gray-300">
               Следите за нашими на новостями, акциями и специальными предложениями.
             </p>
