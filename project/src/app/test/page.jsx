@@ -23,12 +23,12 @@ export default async function Test() {
         <p>{data.rubric[0].value}</p>
         <h1 className="font-serif text-3xl font-bold underline text-green-500">
       GGGGGG2
-    </h1>
-<Counter/>
-<p>----</p>
-<Zustandtest/>
-<p>----</p>
-<Zustandtest2/>
+            </h1>
+        <Counter/>
+        <p>----</p>
+        <Zustandtest/>
+        <p>----</p>
+        <Zustandtest2/>
     </>
   )
 }

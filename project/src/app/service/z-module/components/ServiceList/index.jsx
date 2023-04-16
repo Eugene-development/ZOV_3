@@ -52,7 +52,7 @@ export default function ServiceList() {
     <div className="bg-white py-8 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Наш сервис</h2>
+          <h2 className="text-base font-semibold leading-7 text-red-900">Наш сервис</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Ваша покупка будет комфортной
           </p>
@@ -66,13 +66,13 @@ export default function ServiceList() {
             {services.map((item) => (
               <div key={item.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <item.icon className="h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <item.icon className="h-5 w-5 flex-none text-red-900" aria-hidden="true" />
                   {item.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{item.description}</p>
                   <p className="mt-2">
-                    {/* <a href={item.href} className="text-sm font-semibold leading-6 text-indigo-600">
+                    {/* <a href={item.href} className="text-sm font-semibold leading-6 text-red-900">
                       Learn more <span aria-hidden="true">→</span>
                     </a> */}
                   </p>

@@ -4,7 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 export default function Hero() {
   return (
     <div className="bg-white">
-      <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
+      <div className="relative isolate overflow-hidden bg-gradient-to-b from-gray-100/20">
         <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-24">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl">
@@ -16,7 +16,7 @@ export default function Hero() {
                 /> */}
                 <div className="mt-4 sm:mt-8 lg:mt-16">
                   <a href="#" className="inline-flex space-x-6">
-                    <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-900 ring-1 ring-inset ring-indigo-600/10 ">
+                    <span className="rounded-full bg-gray-500/10 px-3 py-1 text-sm font-semibold leading-6 text-gray-900 ring-1 ring-inset ring-gray-600/10 ">
                       Фабрика мебели "ЗОВ"
                     </span>
                     <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
@@ -34,12 +34,12 @@ export default function Hero() {
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-md bg-gray-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
                   >
-                    Заказать 3D проект
+                    Заказать проект
                   </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                    Консультация на адресе <span aria-hidden="true">→</span>
+                  <a href="#" className="text-sm font-semibold leading-6 text-red-900">
+                    Консультация у вас дома <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
@@ -47,13 +47,13 @@ export default function Hero() {
           </div>
           <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div
-              className="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 md:-mr-20 lg:-mr-36"
+              className="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-gray-600/10 ring-1 ring-gray-50 md:-mr-20 lg:-mr-36"
               aria-hidden="true"
             />
             <div className="shadow-lg md:rounded-3xl">
-              <div className="bg-indigo-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
+              <div className="bg-gray-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
                 <div
-                  className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
+                  className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-gray-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                   aria-hidden="true"
                 />
                 <div className="relative px-6 pt-8 sm:pt-8 md:pl-16 md:pr-0">

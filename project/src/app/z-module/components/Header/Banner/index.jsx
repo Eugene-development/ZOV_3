@@ -8,7 +8,7 @@ export default function Banner() {
 
   return (
     currentVisibleBanner && 
-    <div className="relative isolate flex items-center py-2.5 px-6 sm:px-3.5 justify-between">
+    <div className="relative isolate flex items-center py-2.5 px-6 sm:px-3.5 bg-gray-900 justify-between">
       <svg
         viewBox="0 0 577 310"
         aria-hidden="true"
@@ -49,7 +49,7 @@ export default function Banner() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-5 h-5 text-red-800"
+            className="w-5 h-5 text-red-500"
           >
             <path
               stroke-linecap="round"
@@ -62,10 +62,10 @@ export default function Banner() {
               d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
             />
           </svg>
-          <span className="ml-1 text-sm text-indigo-950">Москва</span>
+          <span className="ml-1 text-sm text-gray-50">Москва</span>
         </div>
 			</div>
-      <p className="text-sm leading-6 text-gray-900">
+      <p className="text-sm leading-6 text-gray-50">
         <a href="#">
           <strong className="font-semibold">Март 2023</strong>
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">

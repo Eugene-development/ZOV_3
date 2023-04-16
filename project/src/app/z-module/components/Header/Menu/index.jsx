@@ -28,16 +28,16 @@ const products = [
   },
   { name: 'Мягкая мебель', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   {
-    name: 'Распродажа',
+    name: 'Распродажа мебели',
     description: 'Your customers’ data will be safe and secure',
     href: '#',
     icon: SquaresPlusIcon,
   },
 ]
 const callsToAction = [
-  { name: 'Посмотреть презентацию', href: '#', icon: PlayCircleIcon },
-  { name: 'Заказать звонок', href: '#', icon: PhoneIcon },
-  { name: 'Ознакомиться с сервисом', href: '#', icon: RectangleGroupIcon },
+  { name: 'Бытовая техника', href: '#', icon: RectangleGroupIcon },
+  { name: 'Мебельная фурнитура', href: '#', icon: RectangleGroupIcon },
+  { name: 'Мойки и сантехника', href: '#', icon: RectangleGroupIcon },
 ]
 
 function classNames(...classes) {
@@ -66,18 +66,21 @@ export default function Menu() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-9">
-          <Link href="/" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+        <Popover.Group className="hidden lg:flex divide-x-2">
+          <Link href="/" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Главная
           </Link>
-          <Link href="/company" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/company" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Компания
+          </Link>
+          <Link href="/blog" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+            Блог
           </Link>
 
           <Popover>     
-            <Popover.Button className="flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+            <Popover.Button className="px-4 flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
               Каталог
-              {/* <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" /> */}
+              <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" />
             </Popover.Button>
 
             <Transition
@@ -94,28 +97,28 @@ export default function Menu() {
                   {products.map((item) => (
                     <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50">
                       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon className="h-6 w-6 text-indigo-600 group-hover:text-red-600" aria-hidden="true" />
+                        <item.icon className="h-6 w-6 text-gray-600 group-hover:text-red-900" aria-hidden="true" />
                       </div>
-                      <a href={item.href} className="mt-6 block font-semibold text-gray-900">
+                      <Link href={item.href} className="mt-6 block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                       <p className="mt-1 text-gray-600">{item.description}</p>
                     </div>
                   ))}
                 </div>
-                <div className="bg-gray-50">
+                <div className="bg-gray-800">
                   <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="grid grid-cols-3 divide-x divide-gray-900/5 border-x border-gray-900/5">
                       {callsToAction.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
                           href={item.href}
-                          className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
+                          className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-50 hover:bg-gray-800"
                         >
-                          <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                          <item.icon className="h-5 w-5 flex-none text-gray-50" aria-hidden="true" />
                           {item.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -124,24 +127,21 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <Link href="/service" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/service" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Сервис
           </Link>
-          <Link href="/blog" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
-            Блог
-          </Link>
-          <Link href="/actions" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/actions" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="/showrooms" className="text-sm xl:text-base font-semibold leading-6 text-indigo-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/showrooms" className="pl-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-            <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-indigo-300/10 bg-gradient-to-r from-indigo-50/50 via-indigo-50/50 to-indigo-100/50 ring-offset-2 ring-1 ring-indigo-200">
-                <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-indigo-700" aria-hidden="true" />
-                <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-indigo-950"
+            <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-gray-300/10 bg-gradient-to-r from-gray-50/50 via-gray-50/50 to-gray-100/50 ring-offset-2 ring-1 ring-gray-200">
+                <PhoneIcon className="block h-4 w-4 xl:h-5 xl:w-5 text-red-800" aria-hidden="true" />
+                <Link href="tel:79801506943" className="ml-2 text-sm xl:text-base font-bold text-gray-950"
                     >8 (980) 150-69-43
                 </Link>
             </div>
@@ -226,7 +226,8 @@ export default function Menu() {
                                                 >8 (980) 150-69-43
                                             </Link>
                                         </div>
-                                    </div>              </div>
+                                    </div> 
+                                                 </div>
             </div>
           </div>
         </Dialog.Panel>

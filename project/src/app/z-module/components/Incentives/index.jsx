@@ -4,37 +4,37 @@ const perks = [
     name: 'Удобство покупки',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg',
     description:
-      'We understand that when your product arrives you might not particularly like it, or you ordered the wrong thing. Conditions apply here.',
+      'Наши салоны работают ежедневно и они расположены практически во всех районах Москвы для вашего удобства.',
   },
   {
     name: 'Акции и подарки',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-gift-card-light.svg',
     description:
-      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+      "Мы постоянно предлагаем Вам разнообразные дополнительные бонусы при покупке мебели для экономии вашего бюджета.",
   },
   {
     name: 'Доставка на адрес',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg',
     description:
-      "Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.",
+      "Для вас работает логистическая служба с собственным транспортом. Также предоставляется услуга грузчиков.",
   },
   {
     name: 'Гарантии 2 года',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-light.svg',
     description:
-      "We have a 10 year warranty with every product that you purchase, whether thats a new pen or organizer, you can be sure we'll stand behind it.",
+      "На мебель мы предоставляем гарантию 24 месяца со дня доставки. На отдельные позиции гарантия достигает 5 лет.",
   },
   {
     name: 'Экологичность материалов',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-planet-light.svg',
     description:
-      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+      "Наше производство использует материалы с экологическим сертификатом качества, предоставляемым поставщиками.",
   },
   {
     name: 'Поддержка после продажи',
     imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg',
     description:
-      "Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.",
+      "После завершения работ мы всегда рады видеть вас и готовы помочь в сложных ситуациях.",
   },
 ]
 
@@ -42,8 +42,11 @@ export default function Incentives() {
   return (
     <div className="bg-gradient-to-b from-gray-50">
       <h2 className="sr-only">Our perks</h2>
-      <div className="mx-auto max-w-7xl py-6 sm:px-2 sm:py-12 lg:px-4">
+      <div className="mx-auto max-w-7xl pb-6 sm:px-2 sm:pb-12 lg:px-4">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 py-4 px-2 sm:py-8 sm:px-2 lg:px-4">Это важно</h2>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+         
+
           {perks.map((perk) => (
             <div key={perk.name} className="sm:flex">
               <div className="sm:flex-shrink-0">
