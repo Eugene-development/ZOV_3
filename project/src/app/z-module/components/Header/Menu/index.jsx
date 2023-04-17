@@ -26,7 +26,7 @@ const products = [
     href: '#',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Мягкая мебель', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Шкафы купе', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   {
     name: 'Распродажа мебели',
     description: 'Your customers’ data will be safe and secure',
@@ -80,7 +80,7 @@ export default function Menu() {
           <Popover>     
             <Popover.Button className="px-4 flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
               Каталог
-              <ChevronRightIcon className="h-5 w-5 flex-none text-red-700" aria-hidden="true" />
+              <ChevronRightIcon className="h-5 w-5 flex-none text-red-700 animate-pulse" aria-hidden="true" />
             </Popover.Button>
 
             <Transition
