@@ -67,18 +67,18 @@ export default function Menu() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex divide-x-2">
-          <Link href="/" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/" className="px-4 text-sm xl:text-base  leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Главная
           </Link>
-          <Link href="/company" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/company" className="px-4 text-sm xl:text-base  leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Компания
           </Link>
-          <Link href="/blog" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/blog" className="px-4 text-sm xl:text-base  leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Блог
           </Link>
 
           <Popover>     
-            <Popover.Button className="px-4 flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+            <Popover.Button className="pl-4 pr-3 flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
               Каталог
               <ChevronRightIcon className="h-5 w-5 flex-none text-red-700 animate-pulse" aria-hidden="true" />
             </Popover.Button>
@@ -127,13 +127,13 @@ export default function Menu() {
             </Transition>
           </Popover>
 
-          <Link href="/service" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/service" className="px-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Сервис
           </Link>
-          <Link href="/actions" className="px-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/actions" className="px-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="/showrooms" className="pl-4 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/showrooms" className="pl-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>
