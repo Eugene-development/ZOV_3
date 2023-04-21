@@ -10,7 +10,27 @@ const articles = [
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
         link: 'https://www.google.com',
         linkName: 'Link 1',
-    }
+    },
+    {
+        topic: 'article',
+        date: '2020-01-01',
+        title: 'Article 2',
+        preview: 'Article 1 content',
+        author: 'Author 1',
+        avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
+        link: 'https://www.google.com',
+        linkName: 'Link 1',
+    },
+    {
+        topic: 'article',
+        date: '2020-01-01',
+        title: 'Article 3',
+        preview: 'Article 1 content',
+        author: 'Author 1',
+        avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
+        link: 'https://www.google.com',
+        linkName: 'Link 1',
+    },
 
 ];
 
