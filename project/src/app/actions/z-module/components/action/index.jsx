@@ -2,18 +2,18 @@ import { GiftIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Сборка в подарок.',
+    name: 'Сборка в подарок',
     description:
       'Если ваш заказ свыше 70000 рублей, то наша компания оплатит работу сборщиков за свой счёт.',
     icon: GiftIcon,
   },
   {
-    name: 'Вместе дешевле.',
+    name: 'Вместе дешевле',
     description: 'При разовом заказе кухонного гарнитура и шкафа, мы предоставим скидку 5% на оба изделия.',
     icon: GiftIcon,
   },
   {
-    name: 'Каперсберг дарит.',
+    name: 'Каперсберг дарит',
     description: 'Если вы приобретёте 5 позиций техники Kuppersberg, та что по меньшей цене будет вам в подарок.',
     icon: GiftIcon,
   },
@@ -37,7 +37,7 @@ export default function Action() {
                     <dt className="inline font-semibold text-gray-900">
                       <feature.icon className="absolute left-1 top-1 h-5 w-5 text-red-900" aria-hidden="true" />
                       {feature.name}
-                    </dt>{' '}
+                    </dt>{' '}<br/>
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}
