@@ -49,18 +49,12 @@ const services = [
 
 export default function ServiceList() {
   return (
-    <div className="bg-white py-8 sm:py-16">
+    <div className="bg-white py-8 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
-          {/* <h2 className="text-base font-semibold leading-7 text-red-900">Наш сервис</h2> */}
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Ваша покупка будет комфортной
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
-          </p>
-        </div>
+            <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Наш сервис</h2>
+                <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
+            </div> 
         <div className="mx-auto mt-8 max-w-2xl sm:mt-20 lg:mt-12 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {services.map((item) => (
