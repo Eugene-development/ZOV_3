@@ -3,7 +3,7 @@ export default function ExampleFurniture() {
   return (
     <>
     
-        <div className="bg-gray-50">
+  <div className="bg-gray-50">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Secure platform, secure data</h2>
@@ -65,7 +65,7 @@ export default function ExampleFurniture() {
                 <h3 className="font-semibold text-white">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Бытовая техника
+                    Шкафы купе
                   </a>
                 </h3>
               </div>
@@ -193,7 +193,7 @@ export default function ExampleFurniture() {
           </div>
       </div>
   </div>
-</section>
+    </section>
     </>
   )
 }
