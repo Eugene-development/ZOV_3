@@ -12,7 +12,7 @@ import Incentives from "./z-module/components/Incentives";
 
 export async function generateMetadata({ params, searchParams }) {
   return { 
-    title: '...00',
+    title: 'Мебель ЗОВ',
     description: 'овылтиджывьищывпльи',
    };
 }

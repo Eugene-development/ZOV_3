@@ -16,20 +16,20 @@ import { ChevronRightIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from 
 const products = [
   {
     name: 'Кухонные гарнитуры',
-    description: 'Get a better understanding where your traffic is coming from',
+    description: 'Дизайнерское решение организации вашей кухни',
     href: '#',
     icon: ChartPieIcon,
   },
   {
     name: 'Шкафы и гардеробы',
-    description: 'Speak directly to your customers with our engagement tool',
+    description: 'Вместительные конструкции с различным наполнением',
     href: '#',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Шкафы купе', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Шкафы купе', description: 'Эргономичные решения для экономии пространства', href: '#', icon: FingerPrintIcon },
   {
     name: 'Распродажа мебели',
-    description: 'Your customers’ data will be safe and secure',
+    description: 'Реализация продукции по сниженным ценам',
     href: '#',
     icon: SquaresPlusIcon,
   },
@@ -99,7 +99,7 @@ export default function Menu() {
                       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-red-900" aria-hidden="true" />
                       </div>
-                      <Link href={item.href} className="mt-6 block font-semibold text-gray-900">
+                      <Link href={item.href} className="mt-6 block font-semibold text-red-950">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>

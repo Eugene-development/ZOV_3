@@ -3,9 +3,10 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 export default function Hero() {
   return (
-    <div className="bg-white font-['lato']">
+    // <div className="bg-white font-['lato']">
+    <div className="bg-white ">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-gray-100/20">
-        <div className="mx-auto max-w-full pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-full pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-2 lg:px-8 lg:py-24">
           <div className="px-10 lg:px-2 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-xl">
@@ -19,7 +20,7 @@ export default function Hero() {
                     <span className="rounded-full bg-gray-500/10 px-3 py-1 text-sm font-semibold leading-6 text-gray-900 ring-1 ring-inset ring-gray-600/10 ">
                       Фабрика мебели "ЗОВ"
                     </span>
-                    <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
+                    <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6ЛЦ text-gray-600">
                       <span>Каталог 2023 года</span>
                       <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                     </span>
@@ -29,7 +30,7 @@ export default function Hero() {
                   Мебель для жизни
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 ">
-                   Фабрика "ЗОВ" - это один из крупнейших производителей кухонной и корпусной мебели как в Республике Беларусь, так и за ее пределами. {/* Наша крупнейшая в Москве и области дилерская сеть насчитывает 39 салонов, где вы можете ознакомиться с образцами и получить полную консультацию.  */}
+                   Фабрика "ЗОВ" - это один из крупнейших производителей кухонной и корпусной мебели как в Республике Беларусь, так и за её пределами. Приобретая мебель нашей фабрики, Вы можете быть уверены в достойном качестве продукции. {/* Наша крупнейшая в Москве и области дилерская сеть насчитывает 39 салонов, где вы можете ознакомиться с образцами и получить полную консультацию.  */}
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
@@ -45,7 +46,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
+          <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-3xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div
               className="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[300%] skew-x-[-30deg] bg-white shadow-xl shadow-gray-600/10 ring-1 ring-gray-50 md:-mr-20 lg:-mr-36"
               aria-hidden="true"
