@@ -9,7 +9,7 @@ import logoGTV from '../../images/logos/gtv.svg';
 const brands = [
     { name: 'Hettich', logo: logoHettich },
     { name: 'Blum', logo: logoBlum },
-    { name: 'Hafele', logo: logoHafele },
+    // { name: 'Hafele', logo: logoHafele },
     { name: 'FGV', logo: logoFGV },
     { name: 'Grass', logo: logoGrass },
     { name: 'GTV', logo: logoGTV }
