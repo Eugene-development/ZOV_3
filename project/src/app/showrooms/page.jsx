@@ -4,8 +4,8 @@ import Addresses from "./z-module/components/Addresses";
 export default function Showrooms() {
   return (
     <>
-      <Addresses/>
       <Map />
+      <Addresses/>
     </>
   );
 }

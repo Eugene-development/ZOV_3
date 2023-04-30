@@ -47,16 +47,28 @@ const showrooms = [
         img: 'https://zovrus.ru/files/_cache/salon/maxresdefault.resize1000x1000.jpg?dd5c2a5892574689efcc7b5703c70ae7',
         link: '/'
     },
+    {
+        city: 'Москва',
+        address: 'проспект Мира, 102к1',
+        metro: 'Алексеевская',
+        workingMode: '10.00-21.00',
+        img: 'https://zovrus.ru/files/_cache/salon/photo_2021-09-30_13-45-25.resize1000x1000.jpg?e65b8ba6092d23b2c020c2b52bf5fbd4',
+        link: '/'
+    },
+    {
+        city: 'Москва',
+        address: 'Бутырская улица, 65/68',
+        metro: 'Бульвар Дмитрия Донского',
+        workingMode: '11.00-21.00',
+        img: 'https://zovrus.ru/files/_cache/salon/_mg_7879.resize1000x1000.jpg?6e3e67c77f4b7ce4729655a9f2fb023c',
+        link: '/'
+    },
 ]
 
 export default function Addresses() {
   return (
     <aside aria-label="Related articles" className="bg-white dark:bg-gray-900 py-8 lg:py-20">
         <div className="px-20 mx-auto max-w-full">
-            <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Наши салоны</h2>
-                <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">В связи с высокой загруженностью дизайнеров просьба предупредить о Вашем визите.</p>
-            </div> 
             <div className="grid gap-6 lg:gap-12 md:grid-cols-2">
                 {showrooms.map(item => (
                      <p className="flex flex-col xl:flex-row transition ease-in-out hover:scale-110">
