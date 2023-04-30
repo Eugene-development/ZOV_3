@@ -1,5 +1,5 @@
 
-export default function Image() {
+export default function Video() {
   return (
     // <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
     //     <img
@@ -10,7 +10,7 @@ export default function Image() {
     // </div>
     <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
       <video controls>
-        <source src="https://storage.yandexcloud.net/zovrus/zov.mp4" type="video/mp4" />
+        <source src="https://storage.yandexcloud.net/zovrus/zov.mp4#t=3" type="video/mp4" />
       </video>    
     </div>
   )

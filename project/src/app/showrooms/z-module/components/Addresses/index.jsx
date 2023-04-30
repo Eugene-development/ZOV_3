@@ -8,9 +8,9 @@ const showrooms = [
     },
     {
         city: 'Москва',
-        address: 'Мичуринский проспект,  10к1',
-        metro: 'Ломоносовский проспект',
-        img: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-2.png',
+        address: 'Профсоюзная улица, 118',
+        metro: 'Коньково',
+        img: 'https://zovrus.ru/files/_cache/salon/abc-photo-98216_1280x0.resize1000x1000.jpg?3eb1cb1fb74218b0d40867bd9cbbb6e1',
         link: '/'
     },
     {
@@ -55,7 +55,7 @@ export default function Addresses() {
                 {showrooms.map(item => (
                      <p className="flex flex-col xl:flex-row">
                         <div className="mb-2 xl:mb-0">
-                            <img src={item.img} className="mr-5 max-w-sm" alt="Image 2"></img>
+                            <img src={item.img} className="mr-5 max-w-sm" alt="saloon"></img>
                         </div>
                         <div className="flex flex-col justify-center">
                             <p className="mb-2 text-2xl font-bold leading-tight text-gray-900 dark:text-white">

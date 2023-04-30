@@ -4,7 +4,7 @@ export default function ExampleFurniture() {
     <>
     
   <div className="bg-gray-50">
-      <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-full py-16 px-8 sm:py-24 sm:px-16 lg:px-24">
       <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Мы производим мебель</h2>
           <p className="font-light text-gray-500 dark:text-gray-400 sm:text-xl">Предлагаем мебель трёх основных направлений: кухонные гарнитуры, гардеробные шкафы и шкафы купе.</p>

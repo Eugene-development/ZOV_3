@@ -1,6 +1,6 @@
 import Hero from './z-module/components/Hero'
 import Content from './z-module/components/Content'
-import Image from './z-module/components/Image'
+import Video from './z-module/components/Video'
 import Values from './z-module/components/Values'
 import Logo from './z-module/components/Logo'
 import Team from './z-module/components/Team'
@@ -11,7 +11,7 @@ export default function Company() {
       <main className="isolate">
         <Hero/>
         <Content/>
-        <Image/>
+        <Video/>
         <Values/>
         <Logo/>
         <Team/>
