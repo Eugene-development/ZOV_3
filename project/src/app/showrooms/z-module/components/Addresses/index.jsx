@@ -59,7 +59,7 @@ export default function Addresses() {
             </div> 
             <div className="grid gap-6 lg:gap-12 md:grid-cols-2">
                 {showrooms.map(item => (
-                     <p className="flex flex-col xl:flex-row">
+                     <p className="flex flex-col xl:flex-row transition ease-in-out hover:scale-110">
                         <div className="mb-2 xl:mb-0">
                             <img src={item.img} className="mr-5 max-w-sm rounded-md object-fill" alt="saloon"></img>
                         </div>
@@ -70,8 +70,8 @@ export default function Addresses() {
                             <p className="mb-2 text-lg font-bold leading-tight text-gray-900 dark:text-white">
                                 <span>{item.address}</span>
                             </p>
-                            <p className="my-4 font-light text-gray-500 dark:text-gray-400 max-w-sm">Метро: "{item.metro}"</p>
-                            <p className="mb-4 font-light text-gray-500 dark:text-gray-400 max-w-sm">Режим работы: {item.workingMode}</p>
+                            <p className="my-2 font-light text-gray-500 dark:text-gray-400 max-w-sm">Метро: "{item.metro}"</p>
+                            <p className="mb-2 font-light text-gray-500 dark:text-gray-400 max-w-sm">Режим работы: {item.workingMode}</p>
                             <div className="inline-flex items-center font-medium underline underline-offset-4 text-red-900 dark:text-primary-500 hover:no-underline">
                                 Записаться к дизайнеру
                             </div>
