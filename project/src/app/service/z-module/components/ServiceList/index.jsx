@@ -4,42 +4,42 @@ const services = [
   {
     name: 'Консультация',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+      'Наши дизайнеры предоставят Вам информацию не только по конструкции и размещению шкафов, но и по цветовому решению.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Замер',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+      'Профессиональный замер помещения является неотъемлемой частью составления проекта. При оформлении договора услуга бесплатна.',
     href: '#',
     icon: LockClosedIcon,
   },
   {
     name: 'Проект',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+      'Проект мебели, составленный в дизайнерской программе, даст визуальное представление о вашей будущей покупке.',
     href: '#',
     icon: ArrowPathIcon,
   },
   {
     name: 'Доставка',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+      'Служба логистики обеспечит Вам комфортную доставку заказа в удобное время. Есть дополнительная услуга грузчиков.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Сборка',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+      'Сборка и установка мебели осуществляется нашими специалистами качественно и в кратчайшие сроки. ',
     href: '#',
     icon: LockClosedIcon,
   },
   {
     name: 'Поддержка',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+      'Мы всегда готовы придти Вам на помощь в сложной ситуации и стараемся всё оперативно решить.',
     href: '#',
     icon: ArrowPathIcon,
   },
