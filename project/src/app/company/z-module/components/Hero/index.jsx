@@ -45,10 +45,7 @@ export default function Hero (){
                     Мы самый крупный дилер фабрики "ЗОВ" <br/>в России
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                    mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                    aliqua.
+                    Наша компания располагает самой крупной сетью мебельных салонов в Москве и Московской области. Мы предложим Вам отличный сервис, доступные цены на мебель премиального класса и дружелюбное отношение нашего персонала &#128578;. Ждём Вас в наших салонах!
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
