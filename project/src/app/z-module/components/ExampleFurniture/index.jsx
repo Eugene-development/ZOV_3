@@ -52,7 +52,7 @@ export default function ExampleFurniture() {
           </div>
           <div className="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
             <img
-              src="https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/mariana.jpeg"
+              src="https://millarti.ru/wp-content/uploads/2023/01/1-8-1.png"
               alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk."
               className="object-cover object-center group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
             />
