@@ -4,6 +4,7 @@ import Testimonials from "./z-module/components/Testimonials";
 import ExampleFurniture from "./z-module/components/ExampleFurniture";
 import Feature from "./z-module/components/Feature";
 import Incentives from "./z-module/components/Incentives";
+import Equipment from "./z-module/components/Equipment";
 
 // export const metadata = {
 //   title: 'Тест Тайтл',
@@ -23,7 +24,8 @@ export default async function Home() {
       <Hero/>
       <Brand/>
       <ExampleFurniture/>
-      {/* <Feature/> */}
+      <Equipment/>
+      <Feature/>
       {/* <Incentives/> */}
       <Testimonials/>
     </>

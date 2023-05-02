@@ -9,32 +9,32 @@ import {
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Каркас.',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Фасады.',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues.',
+    name: 'Фурнитура.',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security.',
+    name: 'Столешницы.',
     description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
     icon: FingerPrintIcon,
   },
   {
-    name: 'Powerful API.',
+    name: 'Стекло и зеркала.',
     description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
     icon: Cog6ToothIcon,
   },
   {
-    name: 'Database backups.',
+    name: 'Техника.',
     description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
     icon: ServerIcon,
   },
@@ -45,8 +45,8 @@ export default function Feature() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">Everything you need</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">No server? No problem.</p>
+          <h2 className="text-base font-semibold leading-7 text-indigo-400">Это важно</h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Качество материалов</p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
             dolor cupiditate blanditiis.
