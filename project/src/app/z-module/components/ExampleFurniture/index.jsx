@@ -31,7 +31,7 @@ export default function ExampleFurniture() {
           </div>
           <div className="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
             <img
-              src="https://zovrus.ru/files/_cache/product/chr-1880.crop600x380.jpg?0142259ea58f2bed31141a15ffa8ed67"
+              src="https://zovrus.ru/files/_cache/product/chr-1046_2.resize1200x1200w.jpg?8a9ec4c73c7d199741f9a9837334bb3e"
               alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
               className="object-cover object-center group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
             />
