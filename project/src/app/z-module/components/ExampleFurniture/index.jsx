@@ -73,12 +73,12 @@ export default function ExampleFurniture() {
           </div>
         </div>
 
-        <div className="mt-6 sm:hidden">
+        {/* <div className="mt-6 sm:hidden">
           <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
             Browse all categories
             <span aria-hidden="true"> &rarr;</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
 

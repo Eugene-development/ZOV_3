@@ -45,7 +45,7 @@ export default function Feature() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">Это важно</h2>
+          <h2 className="text-base font-semibold leading-7 text-indigo-200">Это важно</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Качество материалов</p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
@@ -56,7 +56,7 @@ export default function Feature() {
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">
               <dt className="inline font-semibold text-white">
-                <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
+                <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-200" aria-hidden="true" />
                 {feature.name}
               </dt>{' '}
               <dd className="inline">{feature.description}</dd>
