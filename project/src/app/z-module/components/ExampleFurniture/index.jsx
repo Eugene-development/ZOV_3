@@ -20,7 +20,7 @@ export default function ExampleFurniture() {
             <div aria-hidden="true" className="bg-gradient-to-b from-transparent to-black opacity-50" />
             <div className="flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold text-white text-2xl">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Шкафы и гардеробы
@@ -41,7 +41,7 @@ export default function ExampleFurniture() {
             />
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold text-white text-2xl">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Кухонные гарнитуры
@@ -62,7 +62,7 @@ export default function ExampleFurniture() {
             />
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold text-white text-2xl">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Шкафы купе
@@ -81,6 +81,23 @@ export default function ExampleFurniture() {
         </div>
       </div>
     </div>
+
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:py-16">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Разнообразие цветов и оттенков</h2>
+        <p class="font-light text-gray-500 sm:text-lg md:px-20 lg:px-38 xl:px-48 dark:text-gray-400">Вы обязательно найдёте подходящий цвет под ваш интерьер из более чем 2000 вариантов. От нежных пастельных тонов до ярких цветовых решений. </p>
+        <div class="gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12">
+            <img class="col-span-2 mb-4 sm:mb-0 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-1.png" alt="content gallery 1"/>
+            <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-2.png" alt="content gallery 2"/>
+            <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="content gallery 3"/>
+            <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-4.png" alt="content gallery 4"/>
+            <img class="col-span-2 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-5.png" alt="content gallery 5"/>
+            <img class="hidden col-span-1 sm:block rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-6.png" alt="content gallery 6"/>
+        </div>
+    </div>
+  </section>
+
 
 
 
