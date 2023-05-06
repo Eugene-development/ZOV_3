@@ -10,32 +10,32 @@ import {
 const features = [
   {
     name: 'Каркас.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+    description: 'В производстве каркасов мы используем импортный влагостойкий ЛДСП толщиной 18мм.',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Фасады.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'Фасады собственного производства из МДФ, массива или ЛДСП любого размера под ваш вкус.',
     icon: LockClosedIcon,
   },
   {
     name: 'Фурнитура.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
+    description: 'Высокопрочная фурнитура обеспечит долгую беспроблемную эксплуатацию вашей мебели.',
     icon: ArrowPathIcon,
   },
   {
     name: 'Столешницы.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
+    description: 'Предлагаем пластиковые, акриловые и кварцевые столешницы нужного размера и формы.',
     icon: FingerPrintIcon,
   },
   {
     name: 'Стекло и зеркала.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
+    description: 'Используем зеркала и стекло различной толщины с обработкой торцов для вашей безопасности.',
     icon: Cog6ToothIcon,
   },
   {
     name: 'Техника.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
+    description: 'Комплектуем мебель встраиваемой и стационарной бытовой техникой от надёжных мировых брэндов.',
     icon: ServerIcon,
   },
 ]

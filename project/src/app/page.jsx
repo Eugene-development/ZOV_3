@@ -24,8 +24,8 @@ export default async function Home() {
       <Hero/>
       <Brand/>
       <ExampleFurniture/>
-      <Equipment/>
       <Feature/>
+      <Equipment/>
       {/* <Incentives/> */}
       <Testimonials/>
     </>
