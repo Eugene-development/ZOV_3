@@ -84,7 +84,7 @@ export default function ExampleFurniture() {
 
 
   <section class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:py-16">
+    <div class="pt-8 px-4 mx-auto max-w-screen-xl lg:px-12 sm:text-center lg:pt-16">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Разнообразие цветов и оттенков</h2>
         <p class="font-light text-gray-500 sm:text-lg md:px-20 lg:px-38 xl:px-48 dark:text-gray-400">Вы обязательно найдёте подходящий цвет под ваш интерьер из более чем 2000 вариантов. От нежных пастельных тонов до ярких цветовых решений. </p>
         <div class="gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12">

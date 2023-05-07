@@ -3,6 +3,7 @@ import Brand from "./z-module/components/Brand";
 import Testimonials from "./z-module/components/Testimonials";
 import ExampleFurniture from "./z-module/components/ExampleFurniture";
 import Feature from "./z-module/components/Feature";
+import Logo from "./z-module/components/Logo";
 import Incentives from "./z-module/components/Incentives";
 import Equipment from "./z-module/components/Equipment";
 import Call from "./z-module/components/Call";
@@ -25,6 +26,7 @@ export default async function Home() {
       <Hero/>
       <Brand/>
       <ExampleFurniture/>
+      <Logo/>
       <Feature/>
       <Equipment/>
       {/* <Incentives/> */}
