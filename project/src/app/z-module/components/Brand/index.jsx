@@ -18,18 +18,18 @@ const brands = [
 export default function Brand () {
     return (
         <>
-            <div className="mb-4 lg:mt-10">
+            <div className="mb-4">
                 <p className="font-display text-base text-center text-slate-900">
                 Фурнитура, которой мы доверяем:
                 </p>
                 <ul
                 role="list"
-                className=" flex items-center justify-center gap-x-4 sm:gap-x-8 xl:gap-x-12"
+                className=" flex items-center justify-center gap-x-4 sm:gap-x-8 xl:gap-x-20"
                 >
                 {brands.map((company, groupIndex) => (
                     <li key={groupIndex}>
                     <div
-                        className="flex px-2 items-center gap-y-8 flex-row sm:gap-x-12 sm:gap-y-0"
+                        className="flex px-2 items-center gap-y-8 flex-row sm:gap-x-20 sm:gap-y-0"
                     >
                         <Image src={company.logo} alt={company.name} unoptimized />
                     </div>

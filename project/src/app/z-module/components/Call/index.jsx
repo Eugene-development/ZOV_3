@@ -4,7 +4,7 @@ export default function Call() {
   return (
     <div className="bg-white">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center">
+        <div className="mx-auto max-w-4xl text-center font-[lato]">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-7xl">
             Готовы к покупке?
           </h2>

@@ -6,7 +6,7 @@ export default function Hero() {
     // <div className="bg-white font-['lato']">
     <div className="bg-white ">
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-gray-100/20">
-        <div className="mx-auto max-w-full pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-2 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-full pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-2 lg:px-8 lg:py-20">
           <div className="px-10 lg:px-2 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-xl">
@@ -26,7 +26,7 @@ export default function Hero() {
                     </span>
                   </a>
                 </div>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                <h1 className="mt-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl font-[lato]">
                   Мебель для жизни
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 ">
