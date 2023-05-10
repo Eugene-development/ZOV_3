@@ -2,32 +2,32 @@ const values = [
   {
     name: 'Открытость',
     description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+      'Наши салоны работают ежедневно и мы всегда рады вам, чтобы дать исчерпывающую консультацию по всем вопросам.',
   },
   {
     name: 'Лояльность',
     description:
-      'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+      'Мы всегда идём навстречу нашим клиентам в любой ситуации, потому что дорожим вами и надеемся на долгое сотрудничество.',
   },
   {
     name: 'Поддержка',
     description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+      'В сложной ситуации при доставке или в процессе сборки мы стараемся решать возникшие вопросы в кратчайшие сроки.',
   },
   {
     name: 'Качество',
     description:
-      'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+      'Система контроля качества и надёжная упаковка гарантирует целостность заказа и соответствие заявленному качеству.',
   },
   {
     name: 'Гибкость',
     description:
-      'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
+      'У нас гибкая политика в отношении цены, условий доставки и дат установки заказанной вами мебели для вашего комфорта.',
   },
   {
     name: 'Инновации',
     description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+      'Наша компания смотрит на развивающуюся индустрию мебели и внедряет современные решения в производство мебели.',
   },
 ]
 
