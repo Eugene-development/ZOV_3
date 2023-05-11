@@ -16,9 +16,9 @@ import { ChevronRightIcon, PhoneIcon, RectangleGroupIcon } from '@heroicons/reac
 const products = [
   {
     name: 'Кухонные гарнитуры',
-    description: 'Дизайнерское решение организации вашей кухни',
+    description: 'Функциональное решение организации вашей кухни',
     href: '/catalog/kuhna',
-    icon: ChartPieIcon,
+    icon: CursorArrowRaysIcon,
   },
   {
     name: 'Шкафы и гардеробы',
@@ -28,14 +28,15 @@ const products = [
   },
   { 
     name: 'Шкафы купе', 
-    description: 'Эргономичные решения для экономии пространства', 
+    description: 'Дизайнерские решения для экономии пространства', 
     href: '/catalog/kupe', 
-    icon: FingerPrintIcon },
+    icon: CursorArrowRaysIcon
+  },
   {
     name: 'Распродажа мебели',
     description: 'Реализация продукции по сниженным ценам',
     href: '/catalog/rasprodazha',
-    icon: SquaresPlusIcon,
+    icon: CursorArrowRaysIcon,
   },
 ]
 const callsToAction = [
@@ -103,7 +104,7 @@ export default function Menu() {
                       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-red-900" aria-hidden="true" />
                       </div>
-                      <Link href={item.href} className="mt-6 block font-semibold text-red-950">
+                      <Link href={item.href} className="mt-6 block text-base font-semibold text-red-900">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
