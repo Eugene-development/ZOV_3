@@ -7,7 +7,7 @@ export default function Showrooms() {
     <>
       <Head/>
       <Addresses/>
-      <Map/>
+      {/* <Map/> */}
     </>
   );
 }
