@@ -17,20 +17,24 @@ const products = [
   {
     name: 'Кухонные гарнитуры',
     description: 'Дизайнерское решение организации вашей кухни',
-    href: '#',
+    href: '/catalog/kuhna',
     icon: ChartPieIcon,
   },
   {
     name: 'Шкафы и гардеробы',
     description: 'Вместительные конструкции с различным наполнением',
-    href: '#',
+    href: '/catalog/garderob',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Шкафы купе', description: 'Эргономичные решения для экономии пространства', href: '#', icon: FingerPrintIcon },
+  { 
+    name: 'Шкафы купе', 
+    description: 'Эргономичные решения для экономии пространства', 
+    href: '/catalog/kupe', 
+    icon: FingerPrintIcon },
   {
     name: 'Распродажа мебели',
     description: 'Реализация продукции по сниженным ценам',
-    href: '#',
+    href: '/catalog/rasprodazha',
     icon: SquaresPlusIcon,
   },
 ]
