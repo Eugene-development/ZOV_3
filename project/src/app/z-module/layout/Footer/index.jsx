@@ -20,10 +20,10 @@ const navigation = {
     { name: 'Сборка и установка', href: '#' },
   ],
   information: [
-    { name: 'Компания', href: '#' },
-    { name: 'Блог', href: '#' },
+    { name: 'Компания', href: '/company' },
+    { name: 'Блог', href: '/blog' },
     { name: 'Акции', href: '/actions' },
-    { name: 'Контакты', href: '#' },
+    { name: 'Контакты', href: '/showrooms' },
   ],
   social: [
     // {

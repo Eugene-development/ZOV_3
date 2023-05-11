@@ -84,9 +84,6 @@ export default function Addresses() {
                             </p>
                             <p className="my-2 font-light text-gray-500 dark:text-gray-400 max-w-sm">Метро: "{item.metro}"</p>
                             <p className="mb-2 font-light text-gray-500 dark:text-gray-400 max-w-sm">Режим работы: {item.workingMode}</p>
-                            <div className="mt-8 inline-flex items-center text-xl font-medium underline underline-offset-4 text-red-900 dark:text-primary-500 hover:no-underline">
-                                Записаться к дизайнеру
-                            </div>
                         </div>
                      </p>
                 ))} 
