@@ -18,7 +18,7 @@ export default function Call() {
               href="#"
               className="rounded-md bg-red-700 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Консультация
+              Бесплатная консультация
             </a>
           </div>
         </div>

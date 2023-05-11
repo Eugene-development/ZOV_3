@@ -2,10 +2,10 @@ import Link from "next/link"
 
 const navigation = {
   production: [
-    { name: 'Кухонные гарнитуры', href: '#' },
-    { name: 'Шкафы и гардеробы', href: '#' },
-    { name: 'Обеденные группы', href: '#' },
-    { name: 'Офисная мебель', href: '#' },
+    { name: 'Кухонные гарнитуры', href: '/catalog/kuhna' },
+    { name: 'Шкафы и гардеробы', href: '/catalog/garderob' },
+    { name: 'Шкафы купе', href: '/catalog/kupe' },
+    { name: 'Распродажа мебели', href: '/catalog/rasprodazha' },
   ],
   support: [
     { name: 'Обратная связь', href: '#' },
@@ -13,11 +13,11 @@ const navigation = {
     { name: 'Гарантии', href: '#' },
     { name: 'Обращение', href: '#' },
   ],
-  company: [
-    { name: 'Сертификаты', href: '#' },
-    { name: 'Вакансии', href: '#' },
-    { name: 'Лояльность', href: '#' },
-    { name: 'Партнёрство', href: '#' },
+  service: [
+    { name: 'Консультация на дому', href: '#' },
+    { name: 'Замер помещения', href: '#' },
+    { name: 'Доставка на адрес', href: '#' },
+    { name: 'Сборка и установка', href: '#' },
   ],
   information: [
     { name: 'Компания', href: '#' },
@@ -117,6 +117,25 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+
+              <div>
+                <h3 className="text-base font-semibold leading-6 text-white">Услуги</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.service.map((item) => (
+                    <li key={item.name}>
+                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+
+
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+
               <div className="mt-10 md:mt-0">
                 <h3 className="text-base font-semibold leading-6 text-white">Поддержка</h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -129,20 +148,8 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-base font-semibold leading-6 text-white">Компания</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+
+
               <div className="mt-10 md:mt-0">
                 <h3 className="text-base font-semibold leading-6 text-white">Информация</h3>
                 <ul role="list" className="mt-6 space-y-4">
