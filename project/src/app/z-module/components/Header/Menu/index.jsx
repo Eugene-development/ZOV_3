@@ -11,7 +11,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronRightIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
+import { ChevronRightIcon, PhoneIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
 
 const products = [
   {
@@ -96,7 +96,7 @@ export default function Menu() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 -translate-y-1"
             >
-              <Popover.Panel className="absolute inset-x-0 top-0 -z-10 bg-white pt-14 shadow-lg ring-1 ring-gray-900/5">
+              <div className="absolute inset-x-0 top-0 -z-10 bg-white pt-14 shadow-lg ring-1 ring-gray-900/5">
                 <div className="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
                   {products.map((item) => (
                     <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50">
@@ -127,7 +127,7 @@ export default function Menu() {
                     </div>
                   </div>
                 </div>
-              </Popover.Panel>
+              </div>
             </Transition>
           </Popover>
 
