@@ -1,4 +1,6 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import {  HomeIcon, TruckIcon, WrenchScrewdriverIcon, UserPlusIcon, PuzzlePieceIcon, FaceSmileIcon
+
+ } from '@heroicons/react/20/solid'
 
 const services = [
   {
@@ -6,42 +8,42 @@ const services = [
     description:
       'Наши дизайнеры предоставят Вам информацию не только по конструкции и размещению шкафов, но и по цветовому решению.',
     href: '#',
-    icon: CloudArrowUpIcon,
+    icon: UserPlusIcon,
   },
   {
     name: 'Замер',
     description:
       'Профессиональный замер помещения является неотъемлемой частью составления проекта. При оформлении договора услуга бесплатна.',
     href: '#',
-    icon: LockClosedIcon,
+    icon: HomeIcon,
   },
   {
     name: 'Проект',
     description:
       'Проект мебели, составленный в дизайнерской программе, даст визуальное представление о вашей будущей покупке.',
     href: '#',
-    icon: ArrowPathIcon,
+    icon: PuzzlePieceIcon,
   },
   {
     name: 'Доставка',
     description:
       'Служба логистики обеспечит Вам комфортную доставку заказа в удобное время. Есть дополнительная услуга грузчиков.',
     href: '#',
-    icon: CloudArrowUpIcon,
+    icon: TruckIcon,
   },
   {
     name: 'Сборка',
     description:
       'Сборка и установка мебели осуществляется нашими специалистами качественно и в кратчайшие сроки. ',
     href: '#',
-    icon: LockClosedIcon,
+    icon: WrenchScrewdriverIcon,
   },
   {
     name: 'Поддержка',
     description:
       'Мы всегда готовы придти Вам на помощь в сложной ситуации и стараемся всё оперативно решить.',
     href: '#',
-    icon: ArrowPathIcon,
+    icon: FaceSmileIcon,
   },
 ]
 
@@ -60,7 +62,7 @@ export default function ServiceList() {
             {services.map((item) => (
               <div key={item.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <item.icon className="h-5 w-5 flex-none text-red-900" aria-hidden="true" />
+                  <item.icon className="h-5 w-5 flex-none text-red-400" aria-hidden="true" />
                   {item.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
