@@ -34,13 +34,6 @@ export default function Banner() {
             </linearGradient>
           </defs>
         </svg>
-        <svg
-          viewBox="0 0 300 310"
-          aria-hidden="true"
-          className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[20rem] -translate-y-1/2 transform-gpu blur-2xl"
-        >
-          <use href="#a906133b-f855-4023-a54c-38d70c72fe9c" />
-        </svg>
         <div className="flex flex-1 justify-start">
           <div className="flex">
             <svg
@@ -67,7 +60,7 @@ export default function Banner() {
         </div>
         <p className="text-sm leading-6 text-gray-50">
           <a href="/actions">
-            <strong className="font-semibold">Май-Июнь 2023</strong>
+            {/* <strong className="font-semibold">Май-Июнь 2023</strong> */}
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
               <circle cx={1} cy={1} r={1} />
             </svg>

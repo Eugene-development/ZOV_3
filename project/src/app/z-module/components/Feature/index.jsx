@@ -1,42 +1,37 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
+  FireIcon
 } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Каркас.',
     description: 'В производстве каркасов мы используем импортный влагостойкий ЛДСП толщиной 18мм.',
-    icon: CloudArrowUpIcon,
+    icon: FireIcon,
   },
   {
     name: 'Фасады.',
     description: 'Фасады собственного производства из МДФ, массива или ЛДСП любого размера под ваш вкус.',
-    icon: LockClosedIcon,
+    icon: FireIcon,
   },
   {
     name: 'Фурнитура.',
     description: 'Высокопрочная фурнитура обеспечит долгую беспроблемную эксплуатацию вашей мебели.',
-    icon: ArrowPathIcon,
+    icon: FireIcon,
   },
   {
     name: 'Столешницы.',
     description: 'Предлагаем пластиковые, акриловые и кварцевые столешницы нужного размера и формы.',
-    icon: FingerPrintIcon,
+    icon: FireIcon,
   },
   {
     name: 'Стекло и зеркала.',
     description: 'Используем зеркала и стекло различной толщины с обработкой торцов для вашей безопасности.',
-    icon: Cog6ToothIcon,
+    icon: FireIcon,
   },
   {
     name: 'Техника.',
     description: 'Комплектуем мебель встраиваемой и стационарной бытовой техникой от надёжных мировых брэндов.',
-    icon: ServerIcon,
+    icon: FireIcon,
   },
 ]
 
