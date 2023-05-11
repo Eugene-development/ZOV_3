@@ -49,8 +49,8 @@ export default function Feature() {
         <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">
-              <dt className="inline font-semibold text-white">
-                <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-200" aria-hidden="true" />
+              <dt className="inline font-semibold text-indigo-200">
+                <feature.icon className="absolute left-1 top-1 h-5 w-5" aria-hidden="true" />
                 {feature.name}
               </dt>{' '}
               <dd className="inline">{feature.description}</dd>
