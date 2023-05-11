@@ -73,7 +73,7 @@ export default function Addresses() {
                 {showrooms.map(item => (
                      <div key={item.address} className="flex flex-col xl:flex-row transition ease-in-out hover:scale-105 border-r">
                         <div className="">
-                            <img src={item.img} className="mr-5 max-w-sm rounded-md object-fill" alt="saloon"></img>
+                            <img src={item.img} className="mr-5 max-w-sm rounded-md" alt="saloon"></img>
                         </div>
                         <div className="flex flex-col mt-2">
                             <p className="mb-2 text-2xl font-bold leading-tight text-gray-900 dark:text-white">
