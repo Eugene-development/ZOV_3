@@ -142,7 +142,7 @@ export default function Menu() {
           <Link href="/actions" className="px-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Акции
           </Link>
-          <Link href="/showrooms" className="pl-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
+          <Link href="/contacts" className="pl-4 text-sm xl:text-base leading-6 text-gray-800 hover:text-red-800 transition ease-in-out hover:scale-110">
             Салоны
           </Link>
         </Popover.Group>

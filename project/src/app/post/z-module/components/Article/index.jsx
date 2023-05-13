@@ -121,21 +121,6 @@ export default function Article() {
                 <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a letter.
                     Typefaces with serifs are called serif typefaces. Serif fonts are classified as one of the
                     following:</p>
-                <pre><code className="language-html">&lt;dl className="grid grid-cols-2 gap-8 max-w-screen-md text-gray-900 sm:grid-cols-3 dark:text-white"&gt;
-        &lt;div className="flex flex-col justify-center items-center"&gt;
-        &lt;dt className="mb-2 text-3xl font-extrabold"&gt;73M+&lt;/dt&gt;
-        &lt;dd className="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;developers&lt;/dd&gt;
-        &lt;/div&gt;
-        &lt;div className="flex flex-col justify-center items-center"&gt;
-        &lt;dt className="mb-2 text-3xl font-extrabold"&gt;1B+&lt;/dt&gt;
-        &lt;dd className="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;contributors&lt;/dd&gt;
-        &lt;/div&gt;
-        &lt;div className="flex flex-col justify-center items-center"&gt;
-        &lt;dt className="mb-2 text-3xl font-extrabold"&gt;4M+&lt;/dt&gt;
-        &lt;dd className="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;organizations&lt;/dd&gt;
-        &lt;/div&gt;
-        &lt;/dl&gt;
-        </code></pre>
                 <h4>Table example</h4>
                 <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a letter.
                 </p>

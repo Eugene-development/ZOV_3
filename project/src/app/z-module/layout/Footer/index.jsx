@@ -23,7 +23,7 @@ const navigation = {
     { name: 'Компания', href: '/company' },
     { name: 'Блог', href: '/blog' },
     { name: 'Акции', href: '/actions' },
-    { name: 'Контакты', href: '/showrooms' },
+    { name: 'Контакты', href: '/contacts' },
   ],
   social: [
     // {

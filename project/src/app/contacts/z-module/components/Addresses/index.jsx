@@ -68,7 +68,7 @@ const showrooms = [
 export default function Addresses() {
   return (
     <aside aria-label="Related articles" className="bg-white dark:bg-gray-900">
-        <div className="px-20 py-12 mx-auto max-w-full">
+        <div className="px-20 py-8 mx-auto max-w-full">
             <div className="grid gap-6 lg:gap-12 md:grid-cols-2 ">
                 {showrooms.map(item => (
                      <div key={item.address} className="flex flex-col xl:flex-row transition ease-in-out hover:scale-105 border-r">
