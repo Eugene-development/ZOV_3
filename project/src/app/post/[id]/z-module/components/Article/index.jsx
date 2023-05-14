@@ -41,12 +41,30 @@ export default function Article({ param }) {
                     </aside>
                 </div>
 
-<article>
-    <p>Ваша кухня - сердце вашего дома. Это место, где вы готовите пищу, проводите время с семьей и друзьями, и создаете незабываемые моменты. Когда дело доходит до выбора кухонного гарнитура, один из самых важных аспектов, которые нужно учесть, это цвет фасадов, каркаса и столешницы. Цветовая схема вашей кухни может создать атмосферу и визуальный образ, отражающий вашу уникальность и стиль. В этой статье мы рассмотрим несколько ключевых аспектов, которые помогут вам сделать правильный выбор цветов для вашего кухонного гарнитура.</p>
+<div className="my-8 text-base font-light text-gray-500 dark:text-gray-400">
+    <p >Ваша кухня - сердце вашего дома. Это место, где вы готовите пищу, проводите время с семьей и друзьями, и создаете незабываемые моменты. Когда дело доходит до выбора кухонного гарнитура, один из самых важных аспектов, которые нужно учесть, это цвет фасадов, каркаса и столешницы. Цветовая схема вашей кухни может создать атмосферу и визуальный образ, отражающий вашу уникальность и стиль. В этой статье мы рассмотрим несколько ключевых аспектов, которые помогут вам сделать правильный выбор цветов для вашего кухонного гарнитура.</p>
+<ul>
+    <li>
+        Учтите размеры и освещение помещения:
+    </li>
+    <p>При выборе цветов кухонного гарнитура важно учесть размеры помещения и его освещение. Светлые оттенки создают ощущение простора и света, что особенно полезно для небольших кухонь или тех, где нет естественного освещения. Если у вас просторная кухня с хорошим освещением, вы можете рассмотреть как светлые, так и темные оттенки, чтобы создать элегантный и стильный образ.</p>
+    <li>Учитывайте свой стиль:</li>
+    <p>Цвет гарнитура должен соответствовать вашему собственному стилю и предпочтениям. Если вы предпочитаете классический стиль, то теплые и нейтральные оттенки, такие как бежевый или коричневый, будут отличным выбором. Если вы склонны к современным трендам, вы можете рассмотреть более смелые и яркие цвета, такие как глубокий синий или смарагдово-зеленый.</p>
+    <li>Рассмотрите общий дизайн интерьера:</li>
+    <p>Важно принять во внимание общий дизайн интерьера вашего дома. Если у вас уже есть определенная цветовая палитра или дизайнерский стиль, вы можете выбрать цвета гарнитура, которые гармонично впишутся в общую концепцию. Например, если ваш дом о</p>
+    <li>Рассмотрите практичность и функциональность:</li>
+    <p>Помимо эстетических аспектов, важно учесть практичность и функциональность выбранных цветов. Некоторые оттенки могут быть более подвержены пятнам и загрязнениям, особенно на фасадах кухонного гарнитура. В этом случае, выберите цвета, которые легко чистятся и не требуют особенного ухода. Кроме того, стоит учитывать, что темные оттенки могут создавать визуальный эффект уменьшения размеров помещения, поэтому в маленьких кухнях они могут быть не самым лучшим выбором.</p>
+    <li>Сделайте акценты:</li>
+    <p>Использование разных цветов для фасадов, каркаса и столешницы может помочь создать интересный визуальный контраст и добавить глубину в дизайн вашей кухни. Например, вы можете выбрать светлые фасады с темным каркасом или наоборот. Акцентные цвета также могут быть использованы на столешнице, чтобы создать уникальный фокус внимания. Обратите внимание на гармонию цветовых сочетаний и убедитесь, что акцентные цвета дополняют остальную палитру вашей кухни.</p>
+    <li>Проявите творчество:</li>
+    <p>Не бойтесь проявить свою творческую сторону и выбрать необычные цветовые решения для вашего кухонного гарнитура. В конце концов, ваша кухня - это ваше пространство для самовыражения. Рассмотрите использование разных оттенков одного цвета или смешение разных цветов для создания уникального и стильного образа. Вы можете играть с контрастами или использовать неожиданные комбинации цветов, чтобы придать вашей кухне особый характер и индивидуальность.</p>
+    <p>В завершение, выбор цветов для фасадов, каркаса и столешницы вашего кухонного гарнитура - это важное решение, которое оказывает влияние на общий внешний вид и атмосферу вашей кухни. При выборе цветов учтите размеры и освещение помещения, свой собственный стиль, общий дизайн интерьера, практичность и функциональность, акценты и будущие тенденции. Не бойтесь быть творческими и экспериментировать с различными цветовыми сочетаниями.</p>
+    <p>Помните, что выбранные цвета должны создавать гармонию, комфорт и отражать вашу индивидуальность. И не забывайте, что цветовые решения можно всегда обновить и изменить с течением времени. Главное - слушайте свой вкус и создавайте кухню, которая будет радовать вас и вашу семью на протяжении многих лет.</p>
+</ul>
+</div>
 
 
 
-</article>
 
                 <div className="flex justify-between items-center py-6 border-t border-b border-gray-200 dark:border-gray-700">
                     <aside aria-label="Share social media">
@@ -421,7 +439,7 @@ export default function Article({ param }) {
                 <div className="xl:w-[336px] sticky top-24">
                     <h3 id="sidebar-label" className="sr-only">Sidebar</h3>
                     <div className="p-4 mb-6 rounded-lg border border-gray-200 dark:border-gray-700">
-                        <h4 className="mb-2 text-sm font-bold text-gray-900 dark:text-white uppercase">Flowbite News morning headlines</h4>
+                        <h4 className="mb-2 text-sm font-bold text-gray-900 dark:text-white uppercase">Читайте нас</h4>
                         <p className="mb-4 text-sm font-light text-gray-500 dark:text-gray-400">Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox</p>
                         <form action="#">
                             <label htmlFor="email-address-icon" className="sr-only">Your Email</label>
@@ -431,11 +449,11 @@ export default function Article({ param }) {
                                 </div>
                                 <input required type="text" id="email-address-icon" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="name@company.com"/>
                             </div>
-                            <button type="submit" className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 text-center w-full">Subscribe</button> 
+                            <button type="submit" className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 text-center w-full">Подписаться</button> 
                         </form>
                     </div>
                     <div className="p-4 mb-6 rounded-lg border border-gray-200 dark:border-gray-700">
-                        <h4 className="mb-4 text-sm font-bold text-gray-900 dark:text-white uppercase">Latest news</h4>
+                        <h4 className="mb-4 text-sm font-bold text-gray-900 dark:text-white uppercase">Последнее</h4>
                         <div className="mb-6">
                             <h5 className="mb-2 text-lg font-bold leading-tight text-gray-900 dark:text-white">Our first office</h5>
                             <p className="mb-2 font-light text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation.</p>
@@ -472,7 +490,7 @@ export default function Article({ param }) {
 
         <aside aria-label="Related articles" className="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800">
         <div className="px-4 mx-auto max-w-screen-xl">
-            <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Read next</h2>
+            <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Читать далее</h2>
             <article className="flex mb-8">
                 <a href="#" className="shrink-0">
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/articles/image-1.png" className="mr-5 w-32 h-32 max-w-fullalign-middle rounded-full" alt="Image 1"/>
