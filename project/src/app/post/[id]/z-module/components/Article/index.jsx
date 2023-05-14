@@ -8,7 +8,7 @@ export default function Article({ param }) {
             <div className="px-4 mx-auto w-full max-w-screen-xl text-center">
                 <span className="block mb-4 font-semibold text-gray-900 dark:text-white">Опубликовано <time className="font-normal text-gray-500 dark:text-gray-400 uppercase"   dateTime="2023-03-05" title="3 мая, 2023">3 мая, 2023</time></span>
                 <h1 className="mx-auto mb-4 max-w-3xl text-2xl dark:text-white font-extrabold leading-none text-gray-900 sm:text-3xl lg:text-4xl">Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура</h1>
-                <p className="text-lg font-normal text-gray-500 dark:text-gray-400">Before going digital, you might scribbling down some ideas in a sketchbook.</p>
+                <p className="text-lg font-normal text-gray-500 dark:text-gray-400">Мы рады поделиться с Вами своим опытом и помочь в выборе мебели нашей фабрики.</p>
             </div>
         </header>
         <div className="flex relative  justify-between px-4 mx-auto max-w-screen-xl bg-white dark:bg-gray-900 rounded">
@@ -16,7 +16,7 @@ export default function Article({ param }) {
                 <div className="flex flex-col lg:flex-row justify-between lg:items-center py-6 border-t border-b border-gray-200 dark:border-gray-700">
                     <span className="text-base mb-4 lg:mb-0 font-normal text-gray-500 dark:text-gray-400">От автора: <a href="#" rel="author" className="font-bold text-gray-900 dark:text-white no-underline hover:underline">Костров Евгений</a></span>
                     <aside aria-label="Share social media">
-                        <a href="#"
+                        {/* <a href="#"
                         className="inline-flex items-center py-2 px-6 mr-2 text-xs font-medium text-gray-900 no-underline bg-white rounded-lg border border-gray-200 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><svg
                             className="mr-2 w-4 h-4" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
@@ -29,7 +29,7 @@ export default function Article({ param }) {
                                 viewBox="0 0 512 512">
                                 <path
                                     d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                            </svg> Tweet</a>
+                            </svg> Tweet</a> */}
                         <button type="button"
                             className="inline-flex items-center py-2 px-6 text-xs font-medium text-gray-900 no-underline bg-white rounded-lg border border-gray-200 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><svg
                                 className="mr-2 w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -37,12 +37,12 @@ export default function Article({ param }) {
                                 <path fillRule="evenodd"
                                     d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
                                     clipRule="evenodd"></path>
-                            </svg> Copy link</button>
+                            </svg> Скопировать ссылку</button>
                     </aside>
                 </div>
 
 <div className="my-8 text-gray-500 dark:text-gray-400 prose font-normal">
-    <p >Ваша кухня - сердце вашего дома. Это место, где вы готовите пищу, проводите время с семьей и друзьями, и создаете незабываемые моменты. Когда дело доходит до выбора кухонного гарнитура, один из самых важных аспектов, которые нужно учесть, это цвет фасадов, каркаса и столешницы. Цветовая схема вашей кухни может создать атмосферу и визуальный образ, отражающий вашу уникальность и стиль. В этой статье мы рассмотрим несколько ключевых аспектов, которые помогут вам сделать правильный выбор цветов для вашего кухонного гарнитура.</p>
+    <p>Ваша кухня - сердце вашего дома. Это место, где вы готовите пищу, проводите время с семьей и друзьями, и создаете незабываемые моменты. Когда дело доходит до выбора кухонного гарнитура, один из самых важных аспектов, которые нужно учесть, это цвет фасадов, каркаса и столешницы. Цветовая схема вашей кухни может создать атмосферу и визуальный образ, отражающий вашу уникальность и стиль. В этой статье мы рассмотрим несколько ключевых аспектов, которые помогут вам сделать правильный выбор цветов для вашего кухонного гарнитура.</p>
 <ol>
     <li>
         Учтите размеры и освещение помещения:
@@ -68,7 +68,7 @@ export default function Article({ param }) {
 
                 <div className="flex justify-between items-center py-6 border-t border-b border-gray-200 dark:border-gray-700">
                     <aside aria-label="Share social media">
-                        <a href="#"
+                        {/* <a href="#"
                         className="inline-flex items-center py-2 px-6 mr-2 text-xs font-medium text-gray-900 no-underline bg-white rounded-lg border border-gray-200 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><svg
                             className="mr-2 w-4 h-4" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
@@ -81,7 +81,7 @@ export default function Article({ param }) {
                                 viewBox="0 0 512 512">
                                 <path
                                     d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                            </svg> Tweet</a>
+                            </svg> Tweet</a> */}
                         <button type="button"
                             className="inline-flex items-center py-2 px-6 text-xs font-medium text-gray-900 no-underline bg-white rounded-lg border border-gray-200 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><svg
                                 className="mr-2 w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -89,7 +89,7 @@ export default function Article({ param }) {
                                 <path fillRule="evenodd"
                                     d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
                                     clipRule="evenodd"></path>
-                            </svg> Copy link</button>
+                            </svg> Скопировать ссылку</button>
                     </aside>
                     <div className="not-format">
                         <button data-tooltip-target="tooltip-save" className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-gray-400 focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 dark:focus:ring-gray-600" type="button"> 
@@ -117,25 +117,25 @@ export default function Article({ param }) {
                 </div>
                 <section className="mt-8 not-format">
                     <div className="flex justify-between items-center mb-6">
-                        <h2 className="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">Discussion (20)</h2>
-                        <div>
+                        <h2 className="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">Комментарии (20)</h2>
+                        {/* <div>
                             <button type="button"
                                 className="py-2 px-3 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Subscribe</button>
-                        </div>
+                        </div> */}
                     </div>
                     <form className="mb-6">
                         <div
                             className="mb-4 w-full bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-700">
                             <div className="py-2 px-4 bg-gray-50 rounded-t-lg dark:bg-gray-800">
-                                <label htmlFor="comment" className="sr-only">Your comment</label>
+                                <label htmlFor="comment" className="sr-only">Ваш комментарий</label>
                                 <textarea id="comment" rows="6"
                                     className="px-0 w-full text-sm text-gray-900 bg-gray-50 border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
-                                    placeholder="Write a comment..." required></textarea>
+                                    placeholder="Написать комментарий..." required></textarea>
                             </div>
                             <div className="flex justify-between items-center py-2 px-3 border-t dark:border-gray-600">
                                 <button type="submit"
                                     className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
-                                    Post comment
+                                    Отправить на модерацию
                                 </button>
                                 <div className="flex pl-0 space-x-1 sm:pl-2">
                                     <button type="button"

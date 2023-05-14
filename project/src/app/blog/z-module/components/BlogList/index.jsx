@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const articles = [
     {
-        topic: 'article',
+        topic: 'Пост',
         date: '2020-01-01',
-        title: 'Article 1',
-        preview: 'Article 1 content',
-        author: 'Author 1',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
-        link: 'https://www.google.com',
+        link: '/post/1',
         linkName: 'Link 1',
     },
     {
@@ -18,7 +18,7 @@ const articles = [
         preview: 'Article 1 content',
         author: 'Author 1',
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
-        link: 'https://www.google.com',
+        link: '/post/1',
         linkName: 'Link 1',
     },
     {
@@ -28,7 +28,7 @@ const articles = [
         preview: 'Article 1 content',
         author: 'Author 1',
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
-        link: 'https://www.google.com',
+        link: '/post/1',
         linkName: 'Link 1',
     },
 
@@ -52,7 +52,7 @@ export default function BlogList() {
                             </span>
                             <span className="text-sm">{article.date}</span>
                         </div>
-                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">{article.title}</a></h2>
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><Link href={article.link}>{article.title}</Link></h2>
                         <p className="mb-5 font-light text-gray-500 dark:text-gray-400">{article.preview}</p>
                         <div className="flex justify-between items-center">
                             <div className="flex items-center space-x-4">
