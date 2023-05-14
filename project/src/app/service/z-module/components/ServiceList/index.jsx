@@ -62,13 +62,13 @@ export default function ServiceList() {
             {services.map((item) => (
               <div key={item.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <item.icon className="h-5 w-5 flex-none text-red-400" aria-hidden="true" />
+                  <item.icon className="h-5 w-5 flex-none text-indigo-400" aria-hidden="true" />
                   {item.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{item.description}</p>
                   <p className="mt-2">
-                    {/* <a href={item.href} className="text-sm font-semibold leading-6 text-red-900">
+                    {/* <a href={item.href} className="text-sm font-semibold leading-6 text-indigo-900">
                       Learn more <span aria-hidden="true">→</span>
                     </a> */}
                   </p>

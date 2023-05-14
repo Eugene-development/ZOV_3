@@ -3,7 +3,7 @@ import Link from "next/link";
 const articles = [
     {
         topic: 'Пост',
-        date: '2020-01-01',
+        date: '03-05-2023',
         title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
         preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
         author: 'Костров Евгений',
@@ -12,21 +12,51 @@ const articles = [
         linkName: 'Link 1',
     },
     {
-        topic: 'article',
-        date: '2020-01-01',
-        title: 'Article 2',
-        preview: 'Article 1 content',
-        author: 'Author 1',
+        topic: 'Пост',
+        date: '03-05-2023',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
         link: '/post/1',
         linkName: 'Link 1',
     },
     {
-        topic: 'article',
-        date: '2020-01-01',
-        title: 'Article 3',
-        preview: 'Article 1 content',
-        author: 'Author 1',
+        topic: 'Пост',
+        date: '03-05-2023',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
+        avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
+        link: '/post/1',
+        linkName: 'Link 1',
+    },
+    {
+        topic: 'Пост',
+        date: '03-05-2023',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
+        avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
+        link: '/post/1',
+        linkName: 'Link 1',
+    },
+    {
+        topic: 'Пост',
+        date: '03-05-2023',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
+        avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
+        link: '/post/1',
+        linkName: 'Link 1',
+    },
+    {
+        topic: 'Пост',
+        date: '03-05-2023',
+        title: 'Как выбрать идеальный цвет фасадов, каркаса и столешницы для вашего кухонного гарнитура',
+        preview: 'Ваша кухня - сердце вашего дома. Это место, где вы ...',
+        author: 'Костров Евгений',
         avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
         link: '/post/1',
         linkName: 'Link 1',
@@ -40,7 +70,7 @@ export default function BlogList() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-20 lg:px-6">
             <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
                 <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Наш блог</h2>
-                <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Статьи на мебельную тему от авторов нашей компании. Мы рассказываем Вам о новостях нашей фабрики и об отрасли в целом.</p>
+                <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Статьи на мебельную тему от авторов нашей фабрики. Мы рассказываем Вам о новостях нашей фабрики и об отрасли в целом.</p>
             </div> 
             <div className="grid gap-8 lg:grid-cols-2">
                 {articles.map((article) => (

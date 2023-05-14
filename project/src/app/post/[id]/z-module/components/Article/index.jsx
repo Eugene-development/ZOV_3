@@ -12,7 +12,7 @@ export default function Article({ param }) {
             </div>
         </header>
         <div className="flex relative  justify-between px-4 mx-auto max-w-screen-xl bg-white dark:bg-gray-900 rounded">
-            <article className="xl:w-[828px] w-full max-w-none format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            <article className="xl:w-[828px] w-full max-w-none format format-sm sm:format-base lg:format-lg format-indigo dark:format-invert">
                 <div className="flex flex-col lg:flex-row justify-between lg:items-center py-6 border-t border-b border-gray-200 dark:border-gray-700">
                     <span className="text-base mb-4 lg:mb-0 font-normal text-gray-500 dark:text-gray-400">От автора: <a href="#" rel="author" className="font-bold text-gray-900 dark:text-white no-underline hover:underline">Костров Евгений</a></span>
                     <aside aria-label="Share social media">
