@@ -149,7 +149,7 @@ export default function Menu() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-gray-300/10 bg-gradient-to-r from-gray-50/50 via-gray-50/50 to-gray-100/50 ring-offset-2 ring-1 ring-gray-200">
-                <PhoneIcon className="block h-4 w-4 xl:h-6 xl:w-6 text-indigo-700 animate-pulse" aria-hidden="true" />
+                <PhoneIcon className="block h-4 w-4 xl:h-6 xl:w-6 text-gray-950 animate-pulse" aria-hidden="true" />
                 <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold text-gray-950"
                     >8 (980) 150-69-43
                 </Link>
