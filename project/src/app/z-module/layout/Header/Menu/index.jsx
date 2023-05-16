@@ -82,7 +82,7 @@ export default function Menu() {
           <Popover>     
             <Popover.Button className="pl-4 pr-3 flex items-center gap-x-1 text-sm xl:text-base font-semibold leading-6 text-gray-950 hover:text-indigo-800 transition ease-in-out hover:scale-110">
               Каталог
-              <ChevronRightIcon className="h-5 w-5 flex-none text-indigo-700 animate-pulse" aria-hidden="true" />
+              <ChevronRightIcon className="h-5 w-5 flex-none text-red-700 animate-pulse" aria-hidden="true" />
             </Popover.Button>
 
             <Transition
