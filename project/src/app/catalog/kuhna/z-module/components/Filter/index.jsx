@@ -3,11 +3,11 @@ export default function Filter() {
   return (
     <>
     
-        <section className="flex items-center py-24 bg-gray-50 dark:bg-gray-900">
+        <section className="flex items-center py-12 bg-gray-50 dark:bg-gray-900">
           <div className="w-full max-w-screen-xl px-4 mx-auto lg:px-12">
               <div className="relative px-4 overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-lg">
               <div
-                  className="flex flex-col py-3 space-y-3 md:flex-row md:items-center md:justify-between md:space-y-0 md:space-x-4">
+                  className="flex flex-col py-6 space-y-3 md:flex-row md:items-center md:justify-between md:space-y-0 md:space-x-4">
                   <div>
                   <nav
                       className="flex px-3 py-2 mb-10 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
@@ -49,21 +49,21 @@ export default function Filter() {
                       </ol>
                   </nav>
                   <h4>
-                      <span className="dark:text-white">Выберите подходящий критерий:</span>
+                      <span className="dark:text-white">Выберите подходящий фильтр:</span>
                   </h4>
                   </div>
                   <div
                   className="flex flex-col items-start flex-shrink-0 space-y-3 md:flex-row md:items-center lg:justify-end md:space-y-0 md:space-x-3">
                       <button type="button"
                               className="flex items-center justify-center px-4 py-2 mb-16 text-sm font-medium text-white rounded-lg bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 focus:outline-none dark:focus:ring-indigo-800">
-                          Показать все варианты
+                          Применить
                       </button>
                   </div>
               </div>
               <div className="grid w-full grid-cols-2 gap-4 pb-4 md:grid-cols-3 lg:grid-cols-6">
                   <select
                   className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option selected>Все</option>
+                    <option selected>Все стили</option>
                     <option value="samsung">Современный</option>
                     <option value="apple">Классика</option>
                     <option value="nokia">Лофт</option>
@@ -71,7 +71,7 @@ export default function Filter() {
                   </select>
                   <select
                   className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                  <option selected>Все</option>
+                  <option selected>Все цвета</option>
                     <option value="tablet">Синий</option>
                     <option value="phone">Красный</option>
                     <option value="tv">Зелёный</option>
@@ -79,7 +79,7 @@ export default function Filter() {
                   </select>
                   <select
                   className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                  <option selected>Все</option>
+                  <option selected>Все материалы</option>
                   <option value="black">ПВХ</option>
                   <option value="white">Эмаль</option>
                   <option value="silver">Акрил</option>
@@ -125,7 +125,7 @@ export default function Filter() {
                   <button id="actionsDropdownButton" data-dropdown-toggle="actionsDropdown"
                           className="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                           type="button">
-                      Показать выбранное
+                      Сбросить фильтр
                   </button>
                   <div id="actionsDropdown"
                       className="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">

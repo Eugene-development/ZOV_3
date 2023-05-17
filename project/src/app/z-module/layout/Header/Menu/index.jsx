@@ -101,7 +101,7 @@ export default function Menu() {
                       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-700" aria-hidden="true" />
                       </div>
-                      <Link href={item.href} className="mt-6 block text-base font-semibold text-indigo-800">
+                      <Link href={item.href} className="mt-6 block text-base font-semibold text-gray-800">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
@@ -151,7 +151,7 @@ export default function Menu() {
             <div className="flex rounded-lg px-4 py-1 text-xl font-semibold leading-6  shadow-lg shadow-gray-300/10 bg-gradient-to-r from-gray-50/50 via-gray-50/50 to-gray-100/50 ring-offset-2 ring-1 ring-gray-200">
                 <PhoneIcon className="block h-4 w-4 xl:h-6 xl:w-6 text-gray-950 animate-pulse" aria-hidden="true" />
                 <Link href="tel:79801506943" className="ml-2 text-sm xl:text-lg font-bold text-gray-950"
-                    >8 (980) 150-69-43
+                    >8 (915) 400-00-20
                 </Link>
             </div>
           </div>
