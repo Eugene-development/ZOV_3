@@ -35,7 +35,7 @@ export default function Action() {
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline text-lg font-semibold text-gray-900">
                       <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-700" aria-hidden="true" />
-                      {feature.name}
+                      "{feature.name}"
                     </dt>{' '}<br/>
                     <dd className="inline text-base">{feature.description}</dd>
                   </div>

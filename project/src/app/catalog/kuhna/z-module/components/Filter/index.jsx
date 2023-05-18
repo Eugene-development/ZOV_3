@@ -2,8 +2,18 @@
 export default function Filter() {
   return (
     <>
-    
+    {/* <div class="max-w-3xl my-8 mx-auto text-center">
+      <h1 class="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+        Кухонные гарнитуры
+      </h1>
+      <p class="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+        You'll interact with talented professionals, will be challenged to solve difficult problems and think in new and
+        creative ways.
+      </p>
+    </div> */}
+
         <section className="flex items-center py-12 bg-gray-50 dark:bg-gray-900">
+            
           <div className="w-full max-w-screen-xl px-4 mx-auto lg:px-12">
               <div className="relative px-4 overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-lg">
               <div
