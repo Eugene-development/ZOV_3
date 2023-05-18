@@ -1,5 +1,6 @@
 
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import Slider from './Slider'
 
 export default function Hero() {
   return (
@@ -58,11 +59,7 @@ export default function Hero() {
                   aria-hidden="true"
                 />
                 <div className="relative px-6 pt-8 sm:pt-8 md:pl-16 md:pr-0">
-                  <img
-                    src="https://zovofficial.com/image/cache/catalog/products/kuhni/2023/antiko/1-1600x1086.jpg"
-                    alt="кухонный гарнитур"
-                    className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
-                  />
+                  <Slider/>
                   <div
                     className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 md:rounded-3xl"
                     aria-hidden="true"
