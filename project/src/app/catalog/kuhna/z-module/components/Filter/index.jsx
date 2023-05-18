@@ -25,7 +25,7 @@ export default function Filter() {
                       <ol className="inline-flex items-center space-x-1 md:space-x-3">
                       <li className="inline-flex items-center">
                           <a href="/"
-                          className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-white">
+                          className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-600 dark:text-gray-300 dark:hover:text-white">
                           Главная
                           </a>
                       </li>
@@ -38,7 +38,7 @@ export default function Filter() {
                                   clip-rule="evenodd"></path>
                           </svg>
                           <a href="/catalog"
-                              className="ml-1 text-sm font-medium text-gray-700 hover:text-primary-600 md:ml-2 dark:text-gray-300 dark:hover:text-white">
+                              className="ml-1 text-sm font-medium text-gray-700 hover:text-red-600 md:ml-2 dark:text-gray-300 dark:hover:text-white">
                               Каталог
                           </a>
                           </div>
@@ -65,14 +65,14 @@ export default function Filter() {
                   <div
                   className="flex flex-col items-start flex-shrink-0 space-y-3 md:flex-row md:items-center lg:justify-end md:space-y-0 md:space-x-3">
                       <button type="button"
-                              className="flex items-center justify-center px-4 py-2 mb-16 text-sm font-medium text-white rounded-lg bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 focus:outline-none dark:focus:ring-indigo-800">
+                              className="flex items-center justify-center px-4 py-2 mb-16 text-sm font-medium text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800">
                           Применить
                       </button>
                   </div>
               </div>
               <div className="grid w-full grid-cols-2 gap-4 pb-4 md:grid-cols-3 lg:grid-cols-6">
                   <select
-                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500">
                     <option selected>Все стили</option>
                     <option value="samsung">Современный</option>
                     <option value="apple">Классика</option>
@@ -80,7 +80,7 @@ export default function Filter() {
                     <option value="sony">Sony</option>
                   </select>
                   <select
-                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500">
                   <option selected>Все цвета</option>
                     <option value="tablet">Синий</option>
                     <option value="phone">Красный</option>
@@ -88,7 +88,7 @@ export default function Filter() {
                     <option value="console">Console</option>
                   </select>
                   <select
-                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                  className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full px-2.5 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500">
                   <option selected>Все материалы</option>
                   <option value="black">ПВХ</option>
                   <option value="white">Эмаль</option>
@@ -103,28 +103,28 @@ export default function Filter() {
                   </div>
                   <div className="flex items-center mr-4">
                       <input id="all-products" type="radio" value="" name="show-only" checked
-                          className="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                          className="w-4 h-4 bg-gray-100 border-gray-300 text-red-600 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                       <label for="all-products" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                       Любое
                       </label>
                   </div>
                   <div className="flex items-center mr-4">
                       <input id="sort-category" type="radio" value="" name="show-only"
-                          className="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                          className="w-4 h-4 bg-gray-100 border-gray-300 text-red-600 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                       <label for="sort-category" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                       Прямая
                       </label>
                   </div>
                   <div className="flex items-center mr-4">
                       <input id="sort-price" type="radio" value="" name="show-only"
-                          className="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                          className="w-4 h-4 bg-gray-100 border-gray-300 text-red-600 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                       <label for="sort-price" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                       "Г"-Образная
                       </label>
                   </div>
                   <div className="flex items-center mr-4">
                       <input id="sort-state" type="radio" value="" name="show-only"
-                          className="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                          className="w-4 h-4 bg-gray-100 border-gray-300 text-red-600 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                       <label for="sort-state" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                       "П"-Образная
                       </label>
@@ -133,7 +133,7 @@ export default function Filter() {
 
                   <div>
                   <button id="actionsDropdownButton" data-dropdown-toggle="actionsDropdown"
-                          className="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                          className="flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                           type="button">
                       Сбросить фильтр
                   </button>
