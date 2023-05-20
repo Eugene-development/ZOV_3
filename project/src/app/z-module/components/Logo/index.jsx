@@ -23,8 +23,8 @@ export default function Logo() {
               <rect width="100%" height="100%" strokeWidth={0} fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)" />
             </svg>
           </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-2xl font-semibold leading-8 text-gray-900">
+          <div className="my-8 mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 className=" text-center text-3xl font-semibold leading-8 text-gray-900">
               Наши партнёры поставщики бытовой техники
             </h2>
             <div className="mx-auto mt-16 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-20 lg:mx-0 lg:max-w-full lg:grid-cols-5">
@@ -44,7 +44,7 @@ export default function Logo() {
                 width={158}
                 height={48}
               />
-                            <img
+              <img
                 className="col-span-2 max-h-12 w-full object-cover sm:col-start-2 lg:col-span-1"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHaStuvIcCz8Sk90Lb2F6atIRol9dutdi9mC94tc1&s"
                 alt="SavvyCal"
