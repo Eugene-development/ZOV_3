@@ -59,13 +59,11 @@ export default function Banner() {
           </div>
         </div>
         <p className="text-sm leading-6 text-gray-50">
-          <a href="/actions">
-            <strong className="font-semibold">Май-Июнь 2023</strong>
-            <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
+            <strong className="font-semibold">У вас есть готовый проект?</strong>
+            <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current text-indigo-300" aria-hidden="true">
               <circle cx={1} cy={1} r={1} />
             </svg>
-            Акция от поставщика техники Kuppersberg &nbsp;<span aria-hidden="true">&rarr;</span>
-          </a>
+            Отправьте на просчёт &nbsp;<span aria-hidden="true" > <span className='text-indigo-300'>&rarr; &nbsp;</span> info@zov.top</span>
         </p>
         <div className="flex flex-1 justify-end">
           <CloseButton/>
