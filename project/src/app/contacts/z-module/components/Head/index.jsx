@@ -8,6 +8,5 @@ export default function Head() {
             <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">В связи с высокой загруженностью дизайнеров просьба предупредить нас о Вашем визите</p>
         </div> 
     </div> 
-
   )
 }

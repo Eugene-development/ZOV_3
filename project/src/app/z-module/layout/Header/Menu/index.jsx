@@ -39,7 +39,7 @@ const products = [
 const callsToAction = [
   { name: 'Бытовая техника', href: '#', icon: RectangleGroupIcon },
   { name: 'Мебельная фурнитура', href: '#', icon: RectangleGroupIcon },
-  { name: 'Мойки и сантехника', href: '#', icon: RectangleGroupIcon },
+  { name: 'Мойки и аксессуары', href: '#', icon: RectangleGroupIcon },
 ]
 
 function classNames(...classes) {
