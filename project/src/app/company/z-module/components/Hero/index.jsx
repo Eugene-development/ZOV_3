@@ -98,6 +98,14 @@ export default function Hero (){
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
+                    <div className="relative">
+                      <img
+                        src="https://avatars.mds.yandex.net/i?id=90ee170d38948c7d40205eaf68d5f03a52468fb7-8270623-images-thumbs&n=13"
+                        alt=""
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                   </div>
                 </div>
               </div>
