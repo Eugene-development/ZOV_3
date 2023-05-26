@@ -63,7 +63,7 @@ export default function Banner() {
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current text-indigo-300" aria-hidden="true">
               <circle cx={1} cy={1} r={1} />
             </svg>
-            Отправьте на просчёт &nbsp;<span aria-hidden="true" > <span className='text-indigo-300'>&rarr; &nbsp;</span> info@zov.top</span>
+            Отправьте нам на просчёт &nbsp;<span aria-hidden="true" > <span className='text-indigo-300'>&rarr; &nbsp;</span> info@zov.top</span>
         </p>
         <div className="flex flex-1 justify-end">
           <CloseButton/>
