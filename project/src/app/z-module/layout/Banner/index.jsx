@@ -58,7 +58,7 @@ export default function Banner() {
             <span className="ml-1 text-sm text-gray-50">Москва</span>
           </div>
         </div>
-        <p className="text-sm leading-6 text-gray-50">
+        <p className="hidden md:block text-sm leading-6 text-gray-50">
             <strong className="font-semibold">У вас есть готовый проект?</strong>
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current text-indigo-300" aria-hidden="true">
               <circle cx={1} cy={1} r={1} />
