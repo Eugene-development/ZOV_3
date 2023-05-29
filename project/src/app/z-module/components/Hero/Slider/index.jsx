@@ -19,7 +19,7 @@ export default function Slider() {
         className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
         />
         <img
-        src="https://zovrus.ru/files/_cache/product/garderob-3.1.resize800x800w.png?1c559b168e4119b9eb35ca543d2341fd"
+        src="https://zovrus.ru/files/_cache/product/garderobnaya_sistema_kampala.resize1200x1200w.jpg?204a85eac1af7dc824caba513adcccb6"
         alt="гардероб"
         className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 mt-8 sm:mt-12"
         />

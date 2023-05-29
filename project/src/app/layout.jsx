@@ -1,4 +1,4 @@
-import "../globals.css";
+import "./globals.css";
 import Banner from "./z-module/layout/Banner";
 import Header from "./z-module/layout/Header";
 import Footer from "./z-module/layout/Footer";

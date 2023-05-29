@@ -12,63 +12,63 @@ export default function Filter() {
       </p>
     </div> */}
 
-        <section className="flex items-center py-12 bg-gray-50 dark:bg-gray-900">
+        <section className="flex items-center py-10 bg-gray-50 dark:bg-gray-900">
             
           <div className="w-full max-w-screen-xl px-4 mx-auto lg:px-12">
               <div className="relative px-4 overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-lg">
               <div
-                  className="flex flex-col py-6 space-y-3 md:flex-row md:items-center md:justify-between md:space-y-0 md:space-x-4">
+                  className="flex flex-col pt-4 space-y-3 md:flex-row md:items-center md:justify-between md:space-y-0 md:space-x-4">
                   <div>
-                  <nav
-                      className="flex px-3 py-2 mb-10 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
-                      aria-label="Breadcrumb">
-                      <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                      <li className="inline-flex items-center">
-                          <a href="/"
-                          className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-600 dark:text-gray-300 dark:hover:text-white">
-                          Главная
-                          </a>
-                      </li>
-                      <li>
-                          <div className="flex items-center">
-                          <svg aria-hidden="true" className="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd"
-                                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                  clip-rule="evenodd"></path>
-                          </svg>
-                          <a href="/catalog"
-                              className="ml-1 text-sm font-medium text-gray-700 hover:text-red-600 md:ml-2 dark:text-gray-300 dark:hover:text-white">
-                              Каталог
-                          </a>
-                          </div>
-                      </li>
-                      <li aria-current="page">
-                          <div className="flex items-center">
-                          <svg aria-hidden="true" className="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd"
-                                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                  clip-rule="evenodd"></path>
-                          </svg>
-                          <span className="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400">
-                          Кухонные гарнитуры
-                          </span>
-                          </div>
-                      </li>
-                      </ol>
-                  </nav>
-                  <h4>
-                      <span className="dark:text-white">Выберите подходящий фильтр:</span>
-                  </h4>
+                    <nav
+                        className="flex px-3 py-2 mb-10 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
+                        aria-label="Breadcrumb">
+                        <ol className="inline-flex items-center space-x-1 md:space-x-3">
+                        <li className="inline-flex items-center">
+                            <a href="/"
+                            className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-600 dark:text-gray-300 dark:hover:text-white">
+                            Главная
+                            </a>
+                        </li>
+                        <li>
+                            <div className="flex items-center">
+                            <svg aria-hidden="true" className="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <a href="/#"
+                                className="ml-1 text-sm font-medium text-gray-700 hover:text-red-600 md:ml-2 dark:text-gray-300 dark:hover:text-white">
+                                Каталог
+                            </a>
+                            </div>
+                        </li>
+                        <li aria-current="page">
+                            <div className="flex items-center">
+                            <svg aria-hidden="true" className="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span className="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400">
+                            Кухонные гарнитуры
+                            </span>
+                            </div>
+                        </li>
+                        </ol>
+                    </nav>
+                    {/* <h4>
+                        <span className="dark:text-white">Выберите подходящий фильтр:</span>
+                    </h4> */}
                   </div>
-                  <div
+                  {/* <div
                   className="flex flex-col items-start flex-shrink-0 space-y-3 md:flex-row md:items-center lg:justify-end md:space-y-0 md:space-x-3">
                       <button type="button"
                               className="flex items-center justify-center px-4 py-2 mb-16 text-sm font-medium text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800">
                           Применить
                       </button>
-                  </div>
+                  </div> */}
               </div>
               <div className="grid w-full grid-cols-2 gap-4 pb-4 md:grid-cols-3 lg:grid-cols-6">
                   <select
